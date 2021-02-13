@@ -63,6 +63,8 @@ if (!(isNull _corpse)) then { //reset gear if respawning
 		_unit setVariable ["f_var_assignGear_done",false,true];
 		[_loadout,player] call f_fnc_assignGear;
 		[] execVM "f\radios\radio_init.sqf";
+		[] execVM "f\medical\medical_init.sqf";
+		[] execVM "f\ace3\ACE3_clientInit.sqf";
 	};
 };
 
@@ -90,3 +92,5 @@ sleep 5;
 if (isNil "F3_JIP_reinforcementOptionsAction") then {
 	[player] execVM "f\JIP\f_JIP_addReinforcementOptionsAction.sqf";
 };
+
+

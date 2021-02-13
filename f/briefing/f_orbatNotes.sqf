@@ -3,7 +3,7 @@
 // ====================================================================================
 
 // Group IDs need to be set before the ORBAT listing can be created
-waitUntil {!isnil {ca_platoonsetup}}; 
+waitUntil {scriptDone f_script_setGroupIDs};
 
 // Define needed variables
 private ["_orbatText", "_groups", "_precompileGroups","_maxSlots","_freeSlots"];
@@ -40,7 +40,7 @@ _groups = _groups - _hiddenGroups;
 	_orbatText = _orbatText + format ["<font color='%3'>%1 %2</font>", _x, name leader _x,_color] + "<br />";
 
 	{
-		if (_x getVariable ["f_var_assignGear",""] == "med" && {_x != leader group _x}) then {
+		if (_x getVariable ["f_var_assignGear",""] == "m" && {_x != leader group _x}) then {
 			_orbatText = _orbatText + format["|- %1 [M]",name _x] + "<br />";
 		};
 	} forEach units _x;

@@ -1,9 +1,10 @@
-// F3_CA - Assigngear for units, vehicle content and crates
-// Credits: Please see the github
+// F3 - Folk ARPS Assign Gear Script (Server-side)
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
 // DECLARE VARIABLES AND FUNCTIONS
 
+private ["_faction","_typeofUnit","_unit"];
 
 // ====================================================================================
 
@@ -11,21 +12,22 @@
 // The following code detects what faction the unit's slot belongs to, and stores
 // it in the private variable _faction. It can also be passed as an optional parameter.
 
-params ["_typeofUnit","_unit"];
+_typeofUnit = toLower (_this select 0);
+_unit = _this select 1;
 
-// Manually setup faction and insignia if not passed as additional parameters
-_typeofUnit = toLower _typeofUnit;
-_insigniaclass = _typeofUnit;
-_faction = toLower faction _unit;
-
-// If passed as additional parameters, setup _faction and _insigniaclass
-if (count _this > 2) then {
-	_faction = toLower (_this select 2);
-	if (count _this > 3) then {
-		_insigniaclass = toLower (_this select 3);
-	};
+_faction = toLower (faction _unit);
+if(count _this > 2) then
+{
+  _faction = toLower (_this select 2);
 };
 
+// ====================================================================================
+
+// INSIGNIA
+// This block will give units insignia on their uniforms.
+[_unit,_typeofUnit] spawn {
+	#include "f_assignInsignia.sqf"
+};
 
 // ====================================================================================
 
@@ -40,7 +42,6 @@ if !(local _unit) exitWith {};
 // A public variable is set on the unit, indicating their type. This is mostly relevant for the F3 respawn component
 
 _unit setVariable ["f_var_assignGear",_typeofUnit,true];
-_unit setVariable ["f_var_assignGear_Faction",_faction,true];
 
 // ====================================================================================
 
@@ -55,6 +56,14 @@ private ["_attach1","_attach2","_silencer1","_silencer2","_scope1","_scope2","_s
 // scripts to reference.
 
 _unit setVariable ["f_var_assignGear_done",false,true];
+
+// ====================================================================================
+
+// DEBUG
+if (f_var_debugMode == 1) then
+{
+	_unit sideChat format ["DEBUG (assignGear.sqf): unit faction: %1",_faction];
+};
 
 // ====================================================================================
 
@@ -118,13 +127,9 @@ _unit setVariable ["f_var_assignGear_done",true,true];
 if (isNil "_carbine") then { //_carbine should exist unless no faction has been called
 	player globalchat format ["DEBUG (assignGear.sqf): Faction %1 is not defined.",_faction];
 } else {
+ 	if (f_var_debugMode == 1) then	{
+		player sideChat format ["DEBUG (assignGear.sqf): Gear for %1: %1 slot selected.",_unit,_faction,_typeofUnit];
+	};
 };
-
-// ====================================================================================
-
-
-// INSIGNIA
-// This block will give units insignia on their uniforms.
-[_unit,_insigniaclass] call f_fnc_assignInsignia;
 
 // ====================================================================================

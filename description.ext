@@ -1,7 +1,4 @@
 // ============================================================================================
-// F3_CA Version
-version = "5.1.2";
-
 
 // F3 - Mission Header
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
@@ -9,18 +6,18 @@ version = "5.1.2";
 class Header
 {
 	// Available gameTypes:
-	// Coop:	|	Coop Mission: The Bread and Butter of CA missions
+	// Coop:	|	Coop Mission: The meat and bread PA missions
 	// DM		|	Death Match
 	// TDM		|	Team Death Match
 	// CTF		|	Capture The Flag (or, nuke)
 	// SC		|	Sector Control (Think insurgency - the red/green squares)
 	// RPG		|	Skyrim
-	// Sandbox	|	Free Game type, think Shady Swindle
+	// Sandbox	|	Free Game type, think Dark Ripoff
 	// Seize	|	Seize a location
 	// Defend	|	Defend a location
-	gameType = Coop;
-	minPlayers = 1;
-	maxPlayers = 100;
+	gameType = TVT;
+	minPlayers = 6;
+	maxPlayers = 80;
 };
 
 // ============================================================================================
@@ -28,10 +25,10 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = "*** Insert mission name here. ***";
-onLoadMission = "Made with the F3_CA Mission Development Framework";
-author = "*** Insert mission author name here. ***";
-loadScreen = "ca_logo_large.jpg";
+onLoadName = "Ender's Game V3 TH-9";
+onLoadMission = "Made with the F3_PA Mission Development Framework, Calvin's broken edition";
+author = "Calvin McGowan";
+loadScreen = "project.paa";
 
 // ============================================================================================
 
@@ -52,34 +49,27 @@ enableDebugConsole = 1;
 // respawn_west, respawn_guerilla, respawn_east, respawn_civillian.
 
 respawn = 3; //Suggested NOT to change this
-respawndelay = 3;
+respawndelay = 4;
 respawnOnStart = 0;
-respawnTemplates[] = {"ca_respawn"};	// remove "f_spectator" when using respawn.
+respawnTemplates[] = {"f_JIP","f_spectator"};	// remove "f_spectator" when using respawn.
 respawnDialog = 0;
 
 // ============================================================================================
 
-// CA - RotorLib Simulation Setting
+// PA - RotorLib Simulation Setting
 // 0 - default: player options, 1 - all on, 2 - all off.
 
 forceRotorLibSimulation = 0;
 
 // ============================================================================================
 
-// CA - Disable playableunits AI
+// PA - Disable playableunits AI
 
-disabledAI = 1;
-
-// ============================================================================================
-
-// CA - Enable cba_settings.sqf
-// Warning: Do not remove cba_settings.sqf without changing this line.
-
-cba_settings_hasSettingsFile = 1;
+disabledAI = true;
 
 // ============================================================================================
 
-// CA Remove corpse manager
+//PA Remove corpse manager
 
 corpseManagerMode = 1;
 corpseLimit = 15;
@@ -87,6 +77,8 @@ corpseRemovalMinTime = 60; //seconds
 corpseRemovalMaxTime = 300; //seconds
 
 // ============================================================================================
+
+
 // F3 - Start of Notifications block.
 
 class cfgNotifications
@@ -141,15 +133,6 @@ class cfgNotifications
 		priority = 5;
 	};
 
-	// Notification for the F3 Mapclick Supply Drop component
-	class MapClickSupplyDrop {
-		title= "NOTE";
-		description= "%1";
-		iconPicture = "\A3\ui_f\data\map\markers\military\start_ca.paa";
-		duration = 3;
-		priority = 5;
-	};
-
 	// Notification for the F3 JIP Component
 	class JIP {
 		title= "REINFORCEMENTS";
@@ -165,6 +148,185 @@ class cfgNotifications
 // F3 - Start of Params code blocks.
 // WARNING: DO NOT DELETE OR COMMENT OUT THIS CODE BLOCK
 
+class Params
+{
+
+// ============================================================================================
+
+// F3 - Debug Mode
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+// WARNING: DO NOT DISABLE THIS COMPONENT
+
+    class f_param_debugMode
+    {
+            title = "$STR_f_param_debugMode";
+            values[] = {0,1};
+            texts[] = {"Off","On"};
+            default = 0;
+            code = "f_var_debugMode = %1";
+    };
+
+// ============================================================================================
+
+// F3 - Folk Assign Gear Script
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+    class f_param_backpacks
+    {
+            title = "$STR_f_param_loadouts";
+            values[] = {0,1,2};
+            texts[] = {"Light","Medium","Heavy"};
+            default = 2;
+            code = "f_param_backpacks = %1";
+    };
+
+// ============================================================================================
+
+// F3 - Radio Systems Support
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+    class f_param_radios
+    {
+            title = "Radio System";
+            values[] = {0,1,2,3};
+            texts[] = {"Off","ACRE","TFR","ACRE2"};
+            default = 2;
+            code = "f_var_radios = %1";
+    };
+
+// ============================================================================================
+
+// F3 - Medical Systems Support
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+    class f_param_medical
+    {
+            title = "Medical System";
+            values[] = {0,1,2,3};
+            texts[] = {"Arma 3 Default (Autodetect)","F3 Simple Wounding System","Force ACE3 Simple","Force ACE3 Advanced"};
+            default = 2;
+            code = "f_var_medical = %1";
+    };
+
+// F3 - ACE3 Support
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+	class f_param_ace3
+	{
+			title = "ACE3 Support";
+			values[] = {0,1};
+			texts[] = {"Off","On"};
+			default = 1;
+			code = "f_var_ace3 = %1";
+	};
+
+// ============================================================================================
+
+	
+// ============================================================================================
+
+// F3 - Mission Timer/Safe Start
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f3/en/)
+
+    class f_param_mission_timer
+    {
+            title = "$STR_f_param_mission_timer";
+            values[] = {0,1,2,3,4,5,6,7,8,9,10,15};
+            texts[] = {"$STR_f_param_mission_timer_off","1","2","3","4","5","6","7","8","9","10","15"};
+            default = 1;
+            code = "f_param_mission_timer = %1";
+    };
+
+// ============================================================================================
+
+// F3 - Mission Conditions Selector
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+/*
+	class f_param_weather
+	{
+		title = "$STR_f_param_weather";
+		values[] = {0,1,2,3,4,5,6,7,8};
+		texts[] = {$STR_f_param_weather_Option0,$STR_f_param_weather_Option1,$STR_f_param_weather_Option2,$STR_f_param_weather_Option3,$STR_f_param_weather_Option4,$STR_f_param_weather_Option5,$STR_f_param_weather_Option6,$STR_f_param_weather_Option7,$STR_f_param_weather_Option8};
+		default = 3;
+		function = "f_fnc_setWeather";		// This function is called to apply the values
+		isGlobal = 0;						// Execute this only on the server
+		code = "f_param_weather = %1";
+	};
+
+	class f_param_fog
+	{
+		title = "Fog";
+		values[] = {0,1,2};
+		texts[] = {"None","Light","Heavy"};
+		default = 0;
+		function = "f_fnc_SetFog";			// This function is called to apply the values
+		isGlobal = 0;						// Execute this only on the server
+		code = "f_param_fog = %1";
+	};
+
+    class f_param_timeOfDay
+	{
+		title = "$STR_f_param_timeOfDay";
+		values[] = {0,1,2,3,4,5,6,7};
+		texts[] = {$STR_f_param_timeOfDay_Option0,$STR_f_param_timeOfDay_Option1,$STR_f_param_timeOfDay_Option2,$STR_f_param_timeOfDay_Option3,$STR_f_param_timeOfDay_Option4,$STR_f_param_timeOfDay_Option5,$STR_f_param_timeOfDay_Option6,$STR_f_param_timeOfDay_Option7};
+		default = 7;
+		function = "f_fnc_setTime";			// This function is called to apply the values
+ 		isGlobal = 0;						// Execute this only on the server
+ 		code = "f_param_timeOfDay = %1";
+	};
+*/
+// ============================================================================================
+
+// F3 - AI Skill Selector
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+//	class f_param_AISkill_BLUFOR
+//	{
+//		title = "$STR_f_param_AISkill_BLUFOR";
+//		values[] = {0,1,2,3};
+//		texts[] = {$STR_f_param_AISkill_Option0,$STR_f_param_AISkill_Option1,$STR_f_param_AISkill_Option2,$STR_f_param_AISkill_Option3};
+//		default = 1;
+//		code = "f_param_AISkill_BLUFOR = %1";
+//	};
+//
+//	class f_param_AISkill_OPFOR
+//	{
+//		title = "$STR_f_param_AISkill_OPFOR";
+//		values[] = {0,1,2,3};
+//		texts[] = {$STR_f_param_AISkill_Option0,$STR_f_param_AISkill_Option1,$STR_f_param_AISkill_Option2,$STR_f_param_AISkill_Option3};
+//		default = 1;
+//		code = "f_param_AISkill_OPFOR = %1";
+//	};
+//
+//	class f_param_AISkill_INDP
+//	{
+//		title = "$STR_f_param_AISkill_INDP";
+//		values[] = {0,1,2,3};
+//		texts[] = {$STR_f_param_AISkill_Option0,$STR_f_param_AISkill_Option1,$STR_f_param_AISkill_Option2,$STR_f_param_AISkill_Option3};
+//		default = 1;
+//		code = "f_param_AISkill_INDP = %1";
+//	};
+
+// ============================================================================================
+
+// F3 - Caching
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+	class f_param_caching
+	{
+		title = "Cache AI outside distance (m)";
+		values[] = {0,600,800,1000,1500,2000};
+		default = 0;
+		code = "f_param_caching = %1";
+	};
+
+// ============================================================================================
+
+// F3 - End of Params code blocks.
+// WARNING: DO NOT DELETE OR COMMENT OUT THIS CODE BLOCK
+
+};
+
 // ============================================================================================
 
 // F3 - Briefing Template
@@ -174,8 +336,8 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = "Mission Successful";
-		subtitle = "";
+		title = "BLUFOR WIN";
+		subtitle = "Opfor is all dead";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -184,8 +346,8 @@ class CfgDebriefing
 
 	class End2
 	{
-		title = "Mission Failed";
-		subtitle = "";
+		title = "OPFOR WIN";
+		subtitle = "Blufor is all dead";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -194,8 +356,8 @@ class CfgDebriefing
 
 	class End3
 	{
-		title = "BLUFOR WIN";
-		subtitle = "";
+		title = "YOU LOSE";
+		subtitle = "You lot took too long";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
 		// picture = "";
@@ -204,7 +366,7 @@ class CfgDebriefing
 
 	class End4
 	{
-		title = "OPFOR WIN";
+		title = "Ending #4";
 		subtitle = "";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
@@ -214,7 +376,7 @@ class CfgDebriefing
 
 	class End5
 	{
-		title = "INDFOR WIN";
+		title = "Ending #5";
 		subtitle = "";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
@@ -224,7 +386,7 @@ class CfgDebriefing
 
 	class End6
 	{
-		title = "Mission Broke";
+		title = "Ending #6";
 		subtitle = "";
 		description = "Please post to the AAR thread!";
 		// pictureBackground = "";
@@ -241,7 +403,7 @@ class CfgDebriefing
 
 class CfgRespawnTemplates
 {
-/*
+	// F3 Spectator Script
 	class f_Spectator
 	{
 		onPlayerRespawn = "f_fnc_CamInit";
@@ -252,11 +414,6 @@ class CfgRespawnTemplates
 	{
 		onPlayerRespawn = "f\JIP\f_JIP_playerRespawn.sqf";
 	};
-*/
-class ca_respawn
-{
-    onPlayerRespawn = "ca\respawn\ca_onDeath.sqf";
-};
 };
 
 // ============================================================================================
@@ -268,6 +425,9 @@ class ca_respawn
 #include "f\JIP\f_JIP_kitpicker.h"
 #include "f\JIP\f_JIP_grppicker.h"
 
+// Menu components for the Spectator Script
+#include "f\spect\config.hpp"
+
 // ============================================================================================
 
 // F3 - Functions
@@ -275,9 +435,20 @@ class ca_respawn
 
 class CfgFunctions
 {
-	#include "ca\ca_functions.hpp"
 	class F // Defines the "owner"
 	{
+		class common // category
+		{
+			file = "f\common";
+			// Defines the function to preInit (the paramArray dosent seem to be constructed at preInit stage).
+			class processParamsArray
+			{
+				preInit = 1;
+				postInit = 1;
+			};
+
+			class nearPlayer{};
+		};
 		class mpEnd
 		{
 			file = "f\mpEnd";
@@ -288,10 +459,44 @@ class CfgFunctions
 		{
 			// Defines the functions to preInit the compling of the assignGear function used by units.
 			file = "f\assignGear";
-
 			class assignGear{};
-			class assigninsignia{};
-			class assigninsignia_local{};
+		};
+		class ace3
+		{
+			file="f\ace3";
+		};
+		class medical
+		{
+			file="f\medical";
+			class medicalPreInit
+			{
+				preInit = 1;
+			};
+		};
+		class setGroupID
+		{
+			file = "f\setGroupID";
+			class setGroupID{};
+		};
+		class missionConditions
+		{
+			file = "f\missionConditions";
+			class SetTime{};
+			class SetFog{};
+			class SetWeather{};
+		};
+		class cache
+		{
+			file = "f\cache";
+			class cInit {};
+			class cTracker {};
+			class gCache {};
+			class gUncache {};
+		};
+		class groupMarkers {
+			file = "f\groupMarkers";
+			class localGroupMarker{};
+			class localSpecialistMarker{};
 		};
 		class FTMemberMarkers
 		{
@@ -300,30 +505,21 @@ class CfgFunctions
 			class GetMarkerColor{};
 			class LocalFTMarkerSync{};
 		};
-		#include "f\FTMemberMarkers\smoothMarkers\functions.hpp"
+		class bodyRemoval
+		{
+			file = "f\removeBody";
+			class removeBody{};
+		};
+		class setAISkill
+		{
+			file = "f\setAISKill";
+			class setAISKill{};
+		};
 		class mapClickTeleport
 		{
 			file = "f\mapClickTeleport";
 			class mapClickTeleportUnit{};
 			class mapClickTeleportGroup{};
-		};
-		class mapClickSupplyDrop
-		{
-			file = "f\mapClickSupplyDrop";
-			class mapClickSupplyDropUnit{};
-		};
-		class medical
-		{
-			file = "f\medical";
-			class WoundUnitRandomly{};
-		};
-		class zen
-		{
-			file = "f\zen";
-			class zen_removeJammers{};
-			class zen_createJammer{};
-			class zen_doRemoveJammers{};
-			class zen_doCreateJammer{};	
 		};
 		class zeus
 		{
@@ -332,11 +528,30 @@ class CfgFunctions
 			class zeusAddAddons{};
 			class zeusAddObjects{};
 		};
+		class acre
+		{
+			file = "f\radios\acre";
+			class acre_removeRadios{};
+			class acre_addRadios{};
+			class acre_setRadioFrequencies{};
+			class acre_configureSpectatorChat{};
+		};
+		class tfr
+		{
+			file = "f\radios\tfr";
+			class tfr_removeRadios{};
+			class tfr_addRadios{};
+			class tfr_setRadioFrequencies{};
+			class tfr_configureSpectatorChat{};
+		};
 		class safeStart
 		{
 			file = "f\safeStart";
 			class safety{};
 		};
+		#include "f\simplewoundingsystem\config.hpp"
+		#include "f\spect\functions.hpp"
+
 	};
 };
 
@@ -344,64 +559,7 @@ class CfgFunctions
 // ============================================================================================
 
 // F3 - Custom Insignia
-// Default insignia now part of Gibbs_Insignia addon. Mission specific insignia can be added in the define below.
 
 class CfgUnitInsignia {
 	#include "f\assignGear\insignia\define.hpp"
 };
-// Adds to the debriefing possible kills and possible reasons for deaths as well, so after an operation don't go straight to mission select. Its the fourth tab after score.
-class CfgDebriefingSections {
-		class acex_killTracker {
-				title = "Acex Killed Events";
-				variable = "acex_killTracker_outputText";
-		};
-};
-// Makes splendid camera still show chat after quitting splendid camera.
-class Extended_DisplayUnload_EventHandlers {
-    class RscDisplayCamera {
-        ca_fixcamera = "showChat true";
-    };
-};
-
-// F3 CA Custom config for dialogs and stuff
-#include "ca\defines.hpp"
-#include "ca\ca_config.hpp"
-
-// Custom Sounds - Be advised, if you use a cfgSound in a mission,
-// it will play until the file stops, Sounds cannot be interrupted
-// unless the object playing the sound is killed or otherwise destroyed.
-// Sound files can be played in 3D, and are an effect for volume purposes.
-/*
-class CfgSounds
-{
-	sounds[] = {};
-	class wolf1
-	{
-		// how the sound is referred to in the editor (e.g. trigger effects)
-		name = "my_wolf_sound";
-		// filename, volume, pitch
-		sound[] = {"wolf1.ogg", 1, 1};
-		// subtitle delay in seconds, subtitle text
-		titles[] = {1, "*wolf growls*"};
-	};
-};
-*/
-// Custom Music - Can generally be stopped, but plays globally. Cannot be played in 3D
-// from an object but is affected by the Music volume slider.
-/*
-class CfgMusic
-{
-	tracks[]={};
-
-	class MarsIntro
-	{
-		name = "";
-		sound[] = {"filename.ogg", db+0, 1.0};
-	};
-	class Ludwig9
-	{
-		name = "";
-		sound[] = {"filename.ogg", db+10, 1.0};
-	};
-};
-*/
