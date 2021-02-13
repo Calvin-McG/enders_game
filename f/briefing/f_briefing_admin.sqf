@@ -96,7 +96,13 @@ Force safety on for all players</execute><br/>
 
 |- <execute expression=""[[false],'f_fnc_safety',playableUnits + switchableUnits] call BIS_fnc_MP;
 hintsilent 'Safety off!' "">
-Force safety off for all players</execute><br/><br/>
+Force safety off for all players</execute><br/>
+
+|- <execute expression=""[] spawn f_fnc_mapClickSupplyDropUnit;
+ "">
+Map Click Supply Drop</execute><br/>
+
+<br/>
 ";
 
 // ====================================================================================
@@ -128,6 +134,25 @@ if (isNull (getAssignedCuratorLogic player)) then {hintsilent 'Assign ZEUS first
 if (isNull (getAssignedCuratorLogic player)) then {hintsilent 'Assign ZEUS first!'} else {[[player,false],'f_fnc_zeusAddObjects',false] spawn BIS_fnc_MP; [[player,false],'f_fnc_zeusAddAddons',false] spawn BIS_fnc_MP; hintsilent 'Removed powers and units.'};"">Remove all powers and objects from ZEUS</execute>.<br/>
 <br/>
 ";
+
+
+// ====================================================================================
+// ADD SAFE END
+
+
+_briefing = _briefing + "
+<font size='18'>SAFE END</font><br/>
+Moves all players to location on map click, automatically spaced out in a square.
+Makes players/vehicles invincible for 5 min and restores them to full health.
+Vehicles unable to fit are added to zeus while the players are moved. <br/>
+
+|- <execute expression=""[] execVM 'f\briefing\f_safeEndStart.sqf';
+hintsilent 'Click on the location in the map';"">Execute Safe End</execute><br/>
+
+|- <execute expression="" onMapSingleClick '';
+hintsilent 'Map Click Canceled!';"">Cancel Map Click</execute><br/>
+";
+
 
 // ====================================================================================
 
