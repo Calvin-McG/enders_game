@@ -1,0 +1,11 @@
+_unit = _this select 0;
+clearWeaponCargoGlobal _unit;
+clearMagazineCargoGlobal _unit;
+clearItemCargoGlobal _unit;
+clearBackpackCargoGlobal _unit;
+_unit addMagazineCargoGlobal ["150Rnd_762x54_Box_Tracer", 6];
+_unit addItemCargoGlobal ["ACE_morphine", 4];
+_unit addItemCargoGlobal ["ACE_quikclot", 8];
+_unit addItemCargoGlobal ["ACE_Banana", 4];
+_unit addItemCargoGlobal ["ACE_SpareBarrel", 4];
+hint "Ammo Replenished";

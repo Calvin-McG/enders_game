@@ -1,0 +1,14 @@
+init.sqf
+	Toggle AI flashlights
+	Toggle thermals
+description.ext
+	Set max and min players
+	Set game type and mission name
+	Set backpack type
+	Set safe start
+	Set weather, fog, time of day
+	Write ending briefings
+mission.sqm
+	Set mission description
+/f/briefing
+	Write briefings for each playable faction
