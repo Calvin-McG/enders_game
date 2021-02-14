@@ -63,7 +63,7 @@ force ace_medical_treatment_treatmentTimeCPR = 12;
 force ace_medical_treatment_treatmentTimeIV = 8;
 ace_medical_treatment_treatmentTimeSplint = 7;
 force ace_medical_treatment_treatmentTimeTourniquet = 3;
-force ace_medical_treatment_woundReopenChance = 0.2;
+force ace_medical_treatment_woundReopenChance = 0;
 force ace_medical_treatment_woundStitchTime = 2.5;
 
 // ACEX Headless	
