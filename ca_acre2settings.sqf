@@ -54,13 +54,13 @@ f_radios_settings_acre2_BackpackRadio = "ACRE_PRC117F";
 
 // Defines the languages that exist in the mission.
 // string id, displayname
-f_radios_settings_acre2_languages = [["english","English"],["farsi","Farsi"],["greek","Greek"]];
+f_radios_settings_acre2_languages = [["red","Red"],["green","Green"]];
 
 // defines the language that a player can speak.
 // can define multiple
-f_radios_settings_acre2_language_blufor = ["english"];
-f_radios_settings_acre2_language_opfor = ["farsi"];
-f_radios_settings_acre2_language_indfor = ["greek"];
+f_radios_settings_acre2_language_blufor = ["red"];
+f_radios_settings_acre2_language_opfor = ["red"];
+f_radios_settings_acre2_language_indfor = ["green"];
 
 
 ca_radioSetup = true;
