@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=700;
+		nextID=701;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4962.8242,31.649445,3206.707};
-		dir[]={0.17391843,-0.51677918,0.83830619};
-		up[]={0.10497939,0.85610944,0.50601351};
-		aside[]={0.97917831,-3.7188875e-007,-0.20314315};
+		pos[]={5034.7168,9.1721554,4770.3813};
+		dir[]={-0.25820667,-0.87085479,-0.41848391};
+		up[]={-0.45726678,0.49158877,-0.74110717};
+		aside[]={-0.85110557,1.388602e-006,0.52513808};
 	};
 };
 binarizationWanted=0;
@@ -223,21 +223,21 @@ class Mission
 		class Item4
 		{
 			dataType="Marker";
-			position[]={5000.0337,5,3999.8975};
+			position[]={5000.0342,5,3999.897};
 			name="AOmarker";
 			text="AO";
 			type="mil_objective";
-			colorName="ColorGreen";
+			colorName="ColorBlue";
 			id=4;
 		};
 		class Item5
 		{
 			dataType="Marker";
-			position[]={4996.9497,5,4003.2573};
+			position[]={4996.9502,5,4003.2571};
 			name="AreaMarker";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
+			colorName="ColorBlue";
 			fillName="SolidBorder";
 			a=750;
 			b=750;
@@ -247,9 +247,9 @@ class Mission
 		class Item6
 		{
 			dataType="Marker";
-			position[]={5804.6948,5,4297.0327};
+			position[]={5804.6948,5,4297.0332};
 			name="messages";
-			text="Stay in the AO, the green circle";
+			text="Stay in the AO, the blue circle";
 			type="mil_warning";
 			id=6;
 		};
@@ -408,7 +408,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.5,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH1";
 			};
 			id=20;
@@ -442,7 +442,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5035.3906,6.7791443,4758.3525};
+				position[]={5035.3911,6.7791443,4758.353};
 				angles[]={0,3.1566901,0};
 			};
 			side="Empty";
@@ -450,7 +450,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.64453125,0,0.12890625,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH1";
 			};
 			id=21;
@@ -484,15 +484,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4959.1177,6.7791443,3218.3735};
-				angles[]={0,0.020958086,0};
+				position[]={4959.1182,6.7791443,3218.374};
+				angles[]={0,0.020961404,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.3125,0.78125,0.46875,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH2";
 			};
 			id=22;
@@ -526,15 +526,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4983.5835,6.7791443,3246.0088};
-				angles[]={0,0.020958086,0};
+				position[]={4983.583,6.7791443,3246.009};
+				angles[]={0,0.020961404,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.671875,0.87890625,0.68359375,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH3";
 			};
 			id=23;
@@ -568,15 +568,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4983.748,6.7791443,3218.4238};
-				angles[]={0,0.020958086,0};
+				position[]={4983.748,6.7791443,3218.4241};
+				angles[]={0,0.020961404,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.74609375,0.99609375,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH4";
 			};
 			id=24;
@@ -610,15 +610,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5010.3486,6.7791443,3245.7119};
-				angles[]={0,0.020958086,0};
+				position[]={5010.3491,6.7791443,3245.7119};
+				angles[]={0,0.020961404,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0.6171875,0.375,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH5";
 			};
 			id=25;
@@ -653,14 +653,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5009.98,6.7791443,3217.708};
-				angles[]={0,0.020958086,0};
+				angles[]={0,0.020961404,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0.65625,0.41796875,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH6";
 			};
 			id=26;
@@ -694,15 +694,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5034.4395,6.7791443,3245.3447};
-				angles[]={0,0.020958086,0};
+				position[]={5034.439,6.7791443,3245.345};
+				angles[]={0,0.020961404,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.04296875,0.8515625,0.31640625,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH7";
 			};
 			id=27;
@@ -736,15 +736,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5034.582,6.7791443,3217.7393};
-				angles[]={0,0.020958086,0};
+				position[]={5034.582,6.7791443,3217.739};
+				angles[]={0,0.020961404,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.30859375,0.47265625,0.2578125,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH8";
 			};
 			id=28;
@@ -778,7 +778,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5036.6309,6.7791443,4784.1406};
+				position[]={5036.6309,6.7791443,4784.1411};
 				angles[]={0,3.1566901,0};
 			};
 			side="Empty";
@@ -786,7 +786,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.859375,0.078125,0.234375,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH2";
 			};
 			id=29;
@@ -820,7 +820,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5009.2876,6.7791443,4758.4858};
+				position[]={5009.2881,6.7791443,4758.4858};
 				angles[]={0,3.1566901,0};
 			};
 			side="Empty";
@@ -828,7 +828,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0.75,0.79296875,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH3";
 			};
 			id=30;
@@ -870,7 +870,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0.56640625,0.640625,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH4";
 			};
 			id=31;
@@ -904,7 +904,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4983.6563,6.7791443,4758.8052};
+				position[]={4983.6558,6.7791443,4758.8052};
 				angles[]={0,3.1566901,0};
 			};
 			side="Empty";
@@ -912,7 +912,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.765625,0.1171875,0.2265625,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH5";
 			};
 			id=32;
@@ -946,7 +946,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4984.9023,6.7791443,4784.5737};
+				position[]={4984.9019,6.7791443,4784.5742};
 				angles[]={0,3.1566901,0};
 			};
 			side="Empty";
@@ -954,7 +954,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.5859375,0,0.09375,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH6";
 			};
 			id=33;
@@ -996,7 +996,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.88671875,0.2578125,0.203125,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH7";
 			};
 			id=34;
@@ -1038,7 +1038,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0.890625,0.30078125,0.1875,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""opf_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH8";
 			};
 			id=35;
@@ -1158,7 +1158,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4959.9531,9,4744.1577};
-				angles[]={-0,1.5707964,0};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -1174,7 +1174,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4979.8809,9,4744.125};
+				position[]={4979.3535,9,4744.1694};
 				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
@@ -9576,7 +9576,7 @@ class Mission
 						rank="CAPTAIN";
 						init="call{GrpIND_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH1;}";
 						name="UnitIND_TH1_P";
-						description="IND Transport Helo 1 Pilot";
+						description="Chartreuse Pilot";
 						isPlayer=1;
 						isPlayable=1;
 					};
@@ -9641,7 +9641,7 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH1,[4]];";
 						name="UnitIND_TH1_CP";
-						description="IND Transport Helo 1 Gunner";
+						description="Chartreuse Gunner";
 						isPlayable=1;
 					};
 					id=510;
@@ -9652,8 +9652,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4953.1592,5.0014391,3249.2395};
-						angles[]={0,0.020958086,0};
+						position[]={4953.1592,5.0014391,3249.239};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -9663,11 +9663,53 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH1,[1]];";
 						name="UnitIND_TH1_G1";
-						description="IND Transport Helo 1 Gunner";
+						description="Chartreuse Gunner";
 						isPlayable=1;
 					};
 					id=511;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item3
 				{
@@ -9685,7 +9727,7 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH1,[2]];";
 						name="UnitIND_TH1_G2";
-						description="IND Transport Helo 1 Gunner";
+						description="Chartreuse Gunner";
 						isPlayable=1;
 					};
 					id=512;
@@ -9707,7 +9749,7 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH1,[3]];";
 						name="UnitIND_TH1_G2_1";
-						description="IND Transport Helo 1 Gunner";
+						description="Chartreuse Gunner";
 						isPlayable=1;
 					};
 					id=513;
@@ -9716,8 +9758,32 @@ class Mission
 			};
 			class Attributes
 			{
+				name="CHARTREUSE";
 			};
 			id=508;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="CHARTREUSE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item508
 		{
@@ -9742,11 +9808,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH1;";
 						name="UnitCSAT_TH1_P";
-						description="CSAT Transport Helo 1 Pilot";
+						description="Madder Pilot";
 						isPlayable=1;
 					};
 					id=515;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -9764,11 +9853,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH1,[2]];";
 						name="UnitCSAT_TH1_CP";
-						description="CSAT Transport Helo 1 Gunner";
+						description="Madder Gunner";
 						isPlayable=1;
 					};
 					id=516;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -9786,11 +9898,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpCSAT_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH1,[1]];";
 						name="UnitCSAT_TH1_LM";
-						description="CSAT Transport Helo 1 Gunner";
+						description="Madder Gunner";
 						isPlayable=1;
 					};
 					id=517;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -9808,11 +9943,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH1,[3]];";
 						name="UnitCSAT_TH1_CP_1";
-						description="CSAT Transport Helo 1 Gunner";
+						description="Madder Gunner";
 						isPlayable=1;
 					};
 					id=518;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -9830,17 +9988,64 @@ class Mission
 						rank="SERGEANT";
 						init="GrpCSAT_TH1 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH1,[4]];";
 						name="UnitCSAT_TH1_LM_1";
-						description="CSAT Transport Helo 1 Gunner";
+						description="Madder Gunner";
 						isPlayable=1;
 					};
 					id=519;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="MADDER";
 			};
 			id=514;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="MADDER";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item509
 		{
@@ -9855,7 +10060,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4957.8989,5.0014391,3226.0806};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=6;
@@ -9865,11 +10070,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpIND_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH2;";
 						name="UnitIND_TH2_P";
-						description="IND Transport Helo 2 Pilot";
+						description="Emerald Pilot";
 						isPlayable=1;
 					};
 					id=521;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -9877,7 +10105,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4962.793,5.0014391,3221.0269};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -9887,11 +10115,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH2,[4]];";
 						name="UnitIND_TH2_CP";
-						description="IND Transport Helo 2 Gunner";
+						description="Emerald Gunner";
 						isPlayable=1;
 					};
 					id=522;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -9899,7 +10150,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4952.7954,5.0014391,3221.2366};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -9909,11 +10160,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH2,[1]];";
 						name="UnitIND_TH2_G1";
-						description="IND Transport Helo 2 Gunner";
+						description="Emerald Gunner";
 						isPlayable=1;
 					};
 					id=523;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -9921,7 +10195,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4967.687,5.0014391,3215.9233};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -9931,11 +10205,34 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH2,[2]];";
 						name="UnitIND_TH2_G2";
-						description="IND Transport Helo 2 Gunner";
+						description="Emerald Gunner";
 						isPlayable=1;
 					};
 					id=524;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -9943,7 +10240,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4947.6914,5.0014391,3216.3423};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -9953,17 +10250,64 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH2,[3]];";
 						name="UnitIND_TH2_G2_1";
-						description="IND Transport Helo 2 Gunner";
+						description="Emerald Gunner";
 						isPlayable=1;
 					};
 					id=525;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="EMERALD";
 			};
 			id=520;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="EMERALD";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item510
 		{
@@ -9978,7 +10322,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4982.3638,5.0014391,3253.7104};
-						angles[]={0,0.020958086,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=6;
@@ -9988,11 +10332,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpIND_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH3;";
 						name="UnitIND_TH3_P";
-						description="IND Transport Helo 3 Pilot";
+						description="Celadon Pilot";
 						isPlayable=1;
 					};
 					id=527;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10000,7 +10367,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4987.2578,5.0014391,3248.6567};
-						angles[]={0,0.020958086,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10010,11 +10377,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH3,[4]];";
 						name="UnitIND_TH3_CP";
-						description="IND Transport Helo 3 Gunner";
+						description="Celadon Gunner";
 						isPlayable=1;
 					};
 					id=528;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10022,7 +10412,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4977.2603,5.0014391,3248.8665};
-						angles[]={0,0.020958086,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10032,11 +10422,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH3,[1]];";
 						name="UnitIND_TH3_G1";
-						description="IND Transport Helo 3 Gunner";
+						description="Celadon Gunner";
 						isPlayable=1;
 					};
 					id=529;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10044,7 +10457,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4992.1519,5.0014391,3243.5532};
-						angles[]={0,0.020958086,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10054,11 +10467,34 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH3,[2]];";
 						name="UnitIND_TH3_G2";
-						description="IND Transport Helo 3 Gunner";
+						description="Celadon Gunner";
 						isPlayable=1;
 					};
 					id=530;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10066,7 +10502,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4972.1563,5.0014391,3243.9722};
-						angles[]={0,0.020958086,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10076,17 +10512,64 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH3,[3]];";
 						name="UnitIND_TH3_G2_1";
-						description="IND Transport Helo 3 Gunner";
+						description="Celadon Gunner";
 						isPlayable=1;
 					};
 					id=531;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="CELADON";
 			};
 			id=526;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="CELADON";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item511
 		{
@@ -10101,7 +10584,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4982.5107,5.0014391,3226.1125};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=6;
@@ -10111,11 +10594,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpIND_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH4;";
 						name="UnitIND_TH4_P";
-						description="IND Transport Helo 4 Pilot";
+						description="Lime Pilot";
 						isPlayable=1;
 					};
 					id=533;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10123,7 +10629,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4987.4048,5.0014391,3221.0588};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10133,11 +10639,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH4,[4]];";
 						name="UnitIND_TH4_CP";
-						description="IND Transport Helo 4 Gunner";
+						description="Lime Gunner";
 						isPlayable=1;
 					};
 					id=534;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10145,7 +10674,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4977.4072,5.0014391,3221.2686};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10155,11 +10684,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH4,[1]];";
 						name="UnitIND_TH4_G1";
-						description="IND Transport Helo 4 Gunner";
+						description="Lime Gunner";
 						isPlayable=1;
 					};
 					id=535;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10167,7 +10719,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4992.2988,5.0014391,3215.9553};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10177,11 +10729,34 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH4,[2]];";
 						name="UnitIND_TH4_G2";
-						description="IND Transport Helo 4 Gunner";
+						description="Lime Gunner";
 						isPlayable=1;
 					};
 					id=536;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10189,7 +10764,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4972.3032,5.0014391,3216.3743};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10199,17 +10774,64 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH4,[3]];";
 						name="UnitIND_TH4_G2_1";
-						description="IND Transport Helo 4 Gunner";
+						description="Lime Gunner";
 						isPlayable=1;
 					};
 					id=537;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="LIME";
 			};
 			id=532;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="LIME";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item512
 		{
@@ -10224,7 +10846,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5009.1016,5.0014391,3253.3896};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=6;
@@ -10234,11 +10856,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpIND_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH5;";
 						name="UnitIND_TH5_P";
-						description="IND Transport Helo 5 Pilot";
+						description="Shamrock Pilot";
 						isPlayable=1;
 					};
 					id=539;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10246,7 +10891,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5013.9956,5.0014391,3248.3359};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10256,11 +10901,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH5,[4]];";
 						name="UnitIND_TH5_CP";
-						description="IND Transport Helo 5 Gunner";
+						description="Shamrock Gunner";
 						isPlayable=1;
 					};
 					id=540;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10268,7 +10936,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5003.998,5.0014391,3248.5457};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10278,11 +10946,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH5,[1]];";
 						name="UnitIND_TH5_G1";
-						description="IND Transport Helo 5 Gunner";
+						description="Shamrock Gunner";
 						isPlayable=1;
 					};
 					id=541;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10290,7 +10981,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5018.8896,5.0014391,3243.2324};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10300,11 +10991,34 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH5,[2]];";
 						name="UnitIND_TH5_G2";
-						description="IND Transport Helo 5 Gunner";
+						description="Shamrock Gunner";
 						isPlayable=1;
 					};
 					id=542;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10312,7 +11026,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4998.894,5.0014391,3243.6514};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10322,17 +11036,64 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH5,[3]];";
 						name="UnitIND_TH5_G2_1";
-						description="IND Transport Helo 5 Gunner";
+						description="Shamrock Gunner";
 						isPlayable=1;
 					};
 					id=543;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="SHAMROCK";
 			};
 			id=538;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="SHAMROCK";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item513
 		{
@@ -10347,7 +11108,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5008.751,5.0014391,3225.4031};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=6;
@@ -10357,11 +11118,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpIND_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH6;";
 						name="UnitIND_TH6_P";
-						description="IND Transport Helo 6 Pilot";
+						description="Jade Pilot";
 						isPlayable=1;
 					};
 					id=545;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10369,7 +11153,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5013.645,5.0014391,3220.3494};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10379,11 +11163,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH6,[4]];";
 						name="UnitIND_TH6_CP";
-						description="IND Transport Helo 6 Gunner";
+						description="Jade Gunner";
 						isPlayable=1;
 					};
 					id=546;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10391,7 +11198,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5003.6475,5.0014391,3220.5591};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10401,11 +11208,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH6,[1]];";
 						name="UnitIND_TH6_G1";
-						description="IND Transport Helo 6 Gunner";
+						description="Jade Gunner";
 						isPlayable=1;
 					};
 					id=547;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10413,7 +11243,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5018.5391,5.0014391,3215.2458};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10423,11 +11253,34 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH6,[2]];";
 						name="UnitIND_TH6_G2";
-						description="IND Transport Helo 6 Gunner";
+						description="Jade Gunner";
 						isPlayable=1;
 					};
 					id=548;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10435,7 +11288,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4998.5435,5.0014391,3215.6648};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10445,17 +11298,64 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH6,[3]];";
 						name="UnitIND_TH6_G2_1";
-						description="IND Transport Helo 6 Gunner";
+						description="Jade Gunner";
 						isPlayable=1;
 					};
 					id=549;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="JADE";
 			};
 			id=544;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="JADE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item514
 		{
@@ -10470,7 +11370,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5034.0229,5.0014391,3253.0605};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=6;
@@ -10480,11 +11380,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpIND_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH7;";
 						name="UnitIND_TH7_P";
-						description="IND Transport Helo 7 Pilot";
+						description="Malachite Pilot";
 						isPlayable=1;
 					};
 					id=551;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10492,7 +11415,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5038.917,5.0014391,3248.0068};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10502,11 +11425,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH7,[4]];";
 						name="UnitIND_TH7_CP";
-						description="IND Transport Helo 7 Gunner";
+						description="Malachite Gunner";
 						isPlayable=1;
 					};
 					id=552;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10514,7 +11460,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5028.9194,5.0014391,3248.2166};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10524,11 +11470,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH7,[1]];";
 						name="UnitIND_TH7_G1";
-						description="IND Transport Helo 7 Gunner";
+						description="Malachite Gunner";
 						isPlayable=1;
 					};
 					id=553;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10536,7 +11505,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5043.811,5.0014391,3242.9033};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10546,11 +11515,34 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH7,[2]];";
 						name="UnitIND_TH7_G2";
-						description="IND Transport Helo 7 Gunner";
+						description="Malachite Gunner";
 						isPlayable=1;
 					};
 					id=554;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10558,7 +11550,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5023.8154,5.0014391,3243.3223};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10568,17 +11560,64 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH7,[3]];";
 						name="UnitIND_TH7_G2_1";
-						description="IND Transport Helo 7 Gunner";
+						description="Malachite Gunner";
 						isPlayable=1;
 					};
 					id=555;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="MALACHITE";
 			};
 			id=550;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="MALACHITE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item515
 		{
@@ -10593,7 +11632,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5033.3613,5.0014391,3225.4343};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=6;
@@ -10603,11 +11642,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpIND_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehIND_TH8;";
 						name="UnitIND_TH8_P";
-						description="IND Transport Helo 8 Pilot";
+						description="Fern Pilot";
 						isPlayable=1;
 					};
 					id=557;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10615,7 +11677,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5038.2554,5.0014391,3220.3806};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10625,11 +11687,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpIND_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH8,[4]];";
 						name="UnitIND_TH8_CP";
-						description="IND Transport Helo 8 Gunner";
+						description="Fern Gunner";
 						isPlayable=1;
 					};
 					id=558;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10637,7 +11722,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5028.2578,5.0014391,3220.5903};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10647,11 +11732,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpIND_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH8,[1]];";
 						name="UnitIND_TH8_G1";
-						description="IND Transport Helo 8 Gunner";
+						description="Fern Gunner";
 						isPlayable=1;
 					};
 					id=559;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10659,7 +11767,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5043.1494,5.0014391,3215.2771};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10669,11 +11777,34 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH8,[2]];";
 						name="UnitIND_TH8_G2";
-						description="IND Transport Helo 8 Gunner";
+						description="Fern Gunner";
 						isPlayable=1;
 					};
 					id=560;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10681,7 +11812,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5023.1538,5.0014391,3215.696};
-						angles[]={0,0.020958127,0};
+						angles[]={0,0.020961404,0};
 					};
 					side="Independent";
 					flags=4;
@@ -10691,17 +11822,64 @@ class Mission
 						rank="CORPORAL";
 						init="GrpIND_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehIND_TH8,[3]];";
 						name="UnitIND_TH8_G2_1";
-						description="IND Transport Helo 8 Gunner";
+						description="Fern Gunner";
 						isPlayable=1;
 					};
 					id=561;
 					type="I_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GREVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="FERN";
 			};
 			id=556;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="FERN";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item516
 		{
@@ -10716,7 +11894,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5044.707,5.0014391,4779.7051};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=6;
@@ -10726,11 +11904,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH2;";
 						name="UnitCSAT_TH2_P";
-						description="CSAT Transport Helo 2 Pilot";
+						description="Crimson Pilot";
 						isPlayable=1;
 					};
 					id=563;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10738,7 +11939,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5039.7832,5.0014391,4784.8301};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10748,11 +11949,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH2,[2]];";
 						name="UnitCSAT_TH2_CP";
-						description="CSAT Transport Helo 2 Gunner";
+						description="Crimson Gunner";
 						isPlayable=1;
 					};
 					id=564;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10760,7 +11984,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5049.7822,5.0014391,4784.6787};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10770,11 +11994,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpCSAT_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH2,[1]];";
 						name="UnitCSAT_TH2_LM";
-						description="CSAT Transport Helo 2 Gunner";
+						description="Crimson Gunner";
 						isPlayable=1;
 					};
 					id=565;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10782,7 +12029,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5034.8594,5.0014391,4789.9048};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10792,11 +12039,34 @@ class Mission
 						rank="SERGEANT";
 						init="GrpCSAT_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH2,[4]];";
 						name="UnitCSAT_TH2_LM_1";
-						description="CSAT Transport Helo 2 Gunner";
+						description="Crimson Gunner";
 						isPlayable=1;
 					};
 					id=566;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10804,7 +12074,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5054.8569,5.0014391,4789.6025};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10814,17 +12084,64 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH2 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH2,[3]];";
 						name="UnitCSAT_TH2_CP_1";
-						description="CSAT Transport Helo 2 Gunner";
+						description="Crimson Gunner";
 						isPlayable=1;
 					};
 					id=567;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="CRIMSON";
 			};
 			id=562;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="CRIMSON";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item517
 		{
@@ -10839,7 +12156,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5017.3584,5.0014391,4754.0532};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=6;
@@ -10849,11 +12166,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH3;";
 						name="UnitCSAT_TH3_P";
-						description="CSAT Transport Helo 3 Pilot";
+						description="Pink Pilot";
 						isPlayable=1;
 					};
 					id=569;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10861,7 +12201,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5012.4346,5.0014391,4759.1782};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10871,11 +12211,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH3,[1]];";
 						name="UnitCSAT_TH3_CP";
-						description="CSAT Transport Helo 3 Gunner";
+						description="Pink Gunner";
 						isPlayable=1;
 					};
 					id=570;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -10883,7 +12246,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5022.4336,5.0014391,4759.0269};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10893,11 +12256,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH3,[3]];";
 						name="UnitCSAT_TH3_CP_2";
-						description="CSAT Transport Helo 3 Gunner";
+						description="Pink Gunner";
 						isPlayable=1;
 					};
 					id=571;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -10905,7 +12291,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5007.5107,5.0014391,4764.2529};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10915,11 +12301,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH3,[4]];";
 						name="UnitCSAT_TH3_CP_3";
-						description="CSAT Transport Helo 3 Gunner";
+						description="Pink Gunner";
 						isPlayable=1;
 					};
 					id=572;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -10927,7 +12336,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5027.5083,5.0014391,4763.9507};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10937,17 +12346,64 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH3 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH3,[2]];";
 						name="UnitCSAT_TH3_CP_1";
-						description="CSAT Transport Helo 3 Gunner";
+						description="Pink Gunner";
 						isPlayable=1;
 					};
 					id=573;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="PINK";
 			};
 			id=568;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="PINK";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item518
 		{
@@ -10962,7 +12418,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5018.5957,5.0014391,4779.832};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=6;
@@ -10972,11 +12428,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH4;";
 						name="UnitCSAT_TH4_P";
-						description="CSAT Transport Helo 4 Pilot";
+						description="Salmon Pilot";
 						isPlayable=1;
 					};
 					id=575;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -10984,7 +12463,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5013.6719,5.0014391,4784.957};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -10994,11 +12473,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH4,[1]];";
 						name="UnitCSAT_TH4_CP";
-						description="CSAT Transport Helo 4 Gunner";
+						description="Salmon Gunner";
 						isPlayable=1;
 					};
 					id=576;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -11006,7 +12508,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5023.6709,5.0014391,4784.8057};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11016,11 +12518,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH4,[2]];";
 						name="UnitCSAT_TH4_CP_1";
-						description="CSAT Transport Helo 4 Gunner";
+						description="Salmon Gunner";
 						isPlayable=1;
 					};
 					id=577;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -11028,7 +12553,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5008.748,5.0014391,4790.0317};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11038,11 +12563,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH4,[4]];";
 						name="UnitCSAT_TH4_CP_3";
-						description="CSAT Transport Helo 4 Gunner";
+						description="Salmon Gunner";
 						isPlayable=1;
 					};
 					id=578;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -11050,7 +12598,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5028.7456,5.0014391,4789.7295};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11060,17 +12608,64 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH4 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH4,[3]];";
 						name="UnitCSAT_TH4_CP_2";
-						description="CSAT Transport Helo 4 Gunner";
+						description="Salmon Gunner";
 						isPlayable=1;
 					};
 					id=579;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="SALMON";
 			};
 			id=574;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="SALMON";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item519
 		{
@@ -11085,7 +12680,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4991.7241,5.0014391,4754.3589};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=6;
@@ -11095,11 +12690,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH5;";
 						name="UnitCSAT_TH5_P";
-						description="CSAT Transport Helo 5 Pilot";
+						description="Cardinal Pilot";
 						isPlayable=1;
 					};
 					id=581;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -11107,7 +12725,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4986.8003,5.0014391,4759.4839};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11117,11 +12735,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH5,[1]];";
 						name="UnitCSAT_TH5_CP";
-						description="CSAT Transport Helo 5 Gunner";
+						description="Cardinal Gunner";
 						isPlayable=1;
 					};
 					id=582;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -11129,7 +12770,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4996.7993,5.0014391,4759.3325};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11139,11 +12780,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH5,[3]];";
 						name="UnitCSAT_TH5_CP_2";
-						description="CSAT Transport Helo 5 Gunner";
+						description="Cardinal Gunner";
 						isPlayable=1;
 					};
 					id=583;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -11151,7 +12815,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4981.8765,5.0014391,4764.5586};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11161,11 +12825,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH5,[2]];";
 						name="UnitCSAT_TH5_CP_1";
-						description="CSAT Transport Helo 5 Gunner";
+						description="Cardinal Gunner";
 						isPlayable=1;
 					};
 					id=584;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -11173,7 +12860,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5001.874,5.0014391,4764.2563};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11183,17 +12870,64 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH5 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH5,[4]];";
 						name="UnitCSAT_TH5_CP_3";
-						description="CSAT Transport Helo 5 Gunner";
+						description="Cardinal Gunner";
 						isPlayable=1;
 					};
 					id=585;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="CARDINAL";
 			};
 			id=580;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="CARDINAL";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item520
 		{
@@ -11208,7 +12942,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4992.9585,5.0014391,4780.1494};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=6;
@@ -11218,11 +12952,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH6;";
 						name="UnitCSAT_TH6_P";
-						description="CSAT Transport Helo 6 Pilot";
+						description="Carmine Pilot";
 						isPlayable=1;
 					};
 					id=587;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -11230,7 +12987,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4988.0347,5.0014391,4785.2744};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11240,11 +12997,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH6,[1]];";
 						name="UnitCSAT_TH6_CP";
-						description="CSAT Transport Helo 6 Gunner";
+						description="Carmine Gunner";
 						isPlayable=1;
 					};
 					id=588;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -11252,7 +13032,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4998.0337,5.0014391,4785.123};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11262,11 +13042,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH6,[2]];";
 						name="UnitCSAT_TH6_CP_1";
-						description="CSAT Transport Helo 6 Gunner";
+						description="Carmine Gunner";
 						isPlayable=1;
 					};
 					id=589;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -11274,7 +13077,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4983.1108,5.0014391,4790.3491};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11284,11 +13087,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH6,[3]];";
 						name="UnitCSAT_TH6_CP_2";
-						description="CSAT Transport Helo 6 Gunner";
+						description="Carmine Gunner";
 						isPlayable=1;
 					};
 					id=590;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -11296,7 +13122,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5003.1084,5.0014391,4790.0469};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11306,17 +13132,64 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH6 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH6,[4]];";
 						name="UnitCSAT_TH6_CP_3";
-						description="CSAT Transport Helo 6 Gunner";
+						description="Carmine Gunner";
 						isPlayable=1;
 					};
 					id=591;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="CARMINE";
 			};
 			id=586;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="CARMINE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item521
 		{
@@ -11331,7 +13204,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4965.6167,5.0014391,4754.5029};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=6;
@@ -11341,11 +13214,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH7;";
 						name="UnitCSAT_TH7_P";
-						description="CSAT Transport Helo 7 Pilot";
+						description="Vermilion Pilot";
 						isPlayable=1;
 					};
 					id=593;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -11353,7 +13249,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4960.6929,5.0014391,4759.6279};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11363,11 +13259,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH7,[1]];";
 						name="UnitCSAT_TH7_CP";
-						description="CSAT Transport Helo 7 Gunner";
+						description="Vermilion Gunner";
 						isPlayable=1;
 					};
 					id=594;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -11375,7 +13294,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4970.6919,5.0014391,4759.4766};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11385,11 +13304,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH7,[2]];";
 						name="UnitCSAT_TH7_CP_1";
-						description="CSAT Transport Helo 7 Gunner";
+						description="Vermilion Gunner";
 						isPlayable=1;
 					};
 					id=595;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -11397,7 +13339,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4955.769,5.0014391,4764.7026};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11407,11 +13349,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH7,[3]];";
 						name="UnitCSAT_TH7_CP_2";
-						description="CSAT Transport Helo 7 Gunner";
+						description="Vermilion Gunner";
 						isPlayable=1;
 					};
 					id=596;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -11419,7 +13384,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4975.7666,5.0014391,4764.4004};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11429,17 +13394,64 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH7 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH7,[4]];";
 						name="UnitCSAT_TH7_CP_3";
-						description="CSAT Transport Helo 7 Gunner";
+						description="Vermilion Gunner";
 						isPlayable=1;
 					};
 					id=597;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="VERMILION";
 			};
 			id=592;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="VERMILION";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item522
 		{
@@ -11454,7 +13466,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4966.874,5.0014391,4780.2813};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=6;
@@ -11464,11 +13476,34 @@ class Mission
 						rank="CAPTAIN";
 						init="GrpCSAT_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInDriver VehCSAT_TH8;";
 						name="UnitCSAT_TH8_P";
-						description="CSAT Transport Helo 8 Pilot";
+						description="Cinnabar Pilot";
 						isPlayable=1;
 					};
 					id=599;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -11476,7 +13511,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4961.9502,5.0014391,4785.4063};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11486,11 +13521,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH8,[1]];";
 						name="UnitCSAT_TH8_CP";
-						description="CSAT Transport Helo 8 Gunner";
+						description="Cinnabar Gunner";
 						isPlayable=1;
 					};
 					id=600;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item2
 				{
@@ -11498,7 +13556,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4971.9492,5.0014391,4785.2549};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11508,11 +13566,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH8,[4]];";
 						name="UnitCSAT_TH8_CP_3";
-						description="CSAT Transport Helo 8 Gunner";
+						description="Cinnabar Gunner";
 						isPlayable=1;
 					};
 					id=601;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item3
 				{
@@ -11520,7 +13601,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4957.0264,5.0014391,4790.481};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11530,11 +13611,34 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH8,[3]];";
 						name="UnitCSAT_TH8_CP_2";
-						description="CSAT Transport Helo 8 Gunner";
+						description="Cinnabar Gunner";
 						isPlayable=1;
 					};
 					id=602;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item4
 				{
@@ -11542,7 +13646,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4977.0239,5.0014391,4790.1787};
-						angles[]={0,3.1566985,0};
+						angles[]={0,3.1566899,0};
 					};
 					side="East";
 					flags=4;
@@ -11552,17 +13656,64 @@ class Mission
 						rank="LIEUTENANT";
 						init="GrpCSAT_TH8 = group this; [""mmg"",this] call f_fnc_assignGear; this moveInTurret [VehCSAT_TH8,[2]];";
 						name="UnitCSAT_TH8_CP_1";
-						description="CSAT Transport Helo 8 Gunner";
+						description="Cinnabar Gunner";
 						isPlayable=1;
 					};
 					id=603;
 					type="O_Soldier_VR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01PERVR";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
+				name="CINNABAR";
 			};
 			id=598;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="CINNABAR";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item523
 		{
@@ -11643,7 +13794,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11677,7 +13828,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11711,7 +13862,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11745,7 +13896,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11779,7 +13930,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11813,7 +13964,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11847,7 +13998,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11881,7 +14032,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11893,7 +14044,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5035.5659,5,4766.4897};
+				position[]={5035.5659,5,4766.4902};
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH1, [0, -2.5, 0] ]; ";
@@ -11916,7 +14067,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11951,7 +14102,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -11986,7 +14137,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12021,7 +14172,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12056,7 +14207,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12091,7 +14242,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12126,7 +14277,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12161,7 +14312,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12195,7 +14346,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12229,7 +14380,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12263,7 +14414,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12297,7 +14448,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12331,7 +14482,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12365,7 +14516,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12399,7 +14550,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12433,7 +14584,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12467,7 +14618,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12501,7 +14652,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12535,7 +14686,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12569,7 +14720,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12603,7 +14754,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12637,7 +14788,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12671,7 +14822,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12705,7 +14856,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12739,7 +14890,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12773,7 +14924,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12807,7 +14958,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12841,7 +14992,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12875,7 +15026,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12909,7 +15060,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12943,7 +15094,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -12977,7 +15128,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiGreen";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13012,7 +15163,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13047,7 +15198,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13082,7 +15233,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13117,7 +15268,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13152,7 +15303,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13187,7 +15338,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13222,7 +15373,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13257,7 +15408,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13292,7 +15443,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13327,7 +15478,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13362,7 +15513,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13397,7 +15548,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13432,7 +15583,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13467,7 +15618,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13502,7 +15653,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13537,7 +15688,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13572,7 +15723,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13607,7 +15758,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13642,7 +15793,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13677,7 +15828,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13712,7 +15863,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13747,7 +15898,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13782,7 +15933,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
@@ -13817,7 +15968,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="ACE_G_Chemlight_HiRed";
+							value="ACE_G_Chemlight_HiWhite";
 						};
 					};
 				};
