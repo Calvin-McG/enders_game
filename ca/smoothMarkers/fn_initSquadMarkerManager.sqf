@@ -75,15 +75,6 @@ waitUntil
 
                     if (_shouldShow) then
                     {
-                        if (_isAiOnly and {!_entryExists}) then
-                        {
-                            if (_name == groupId _group) then
-                            {
-                                _name = "Allies";
-                                _colour = LIGHTGREY;
-                            };
-
-                        };
 
                         if (_icon isEqualTo "") then {_icon = [_group] call ca_fnc_getGroupMarker};
                         if (_colour isEqualTo []) then {_colour = DEFAULT_COLOUR};
