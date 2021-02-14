@@ -21,7 +21,7 @@ missionNamespace setVariable ["f_var_JIP_RemoveCorpse",false, true]; // Remove t
 missionNamespace setVariable ["f_var_JIP_Spectate",false, true]; // JIP players go into spectate straight away?
 
 // F3 Parameters
-missionNamespace setVariable ['f_var_mission_timer',5, true]; // Safestart duration. Value in minutes
+missionNamespace setVariable ['f_var_mission_timer',1, true]; // Safestart duration. Value in minutes
 
 // CA SMOOTH MARKER SETTINGS
 missionNamespace setVariable ['f_var_smoothMarkers',true, true]; // Use smooth markers instead of the standard markers.

@@ -40,18 +40,6 @@ if (serverCommandAvailable "#kick") then {
 
 // ====================================================================================
 
-// BRIEFING: WEST
-// The following block of code executes only if the player is in a BLU slot; it
-// automatically includes a file which contains the appropriate briefing data.
-
-if (_unitSide == west) exitwith {
-
-#include "f_briefing_west.sqf"
-
-};
-
-// ====================================================================================
-
 // BRIEFING: EAST
 // The following block of code executes only if the player is in a OPF slot; it
 // automatically includes a file which contains the appropriate briefing data.
@@ -69,18 +57,6 @@ if (_unitSide == east) exitwith {
 if (_unitSide == resistance) exitwith {
 
 #include "f_briefing_resistance.sqf"
-
-};
-
-// ====================================================================================
-
-// BRIEFING: CIVILIAN
-// The following block of code executes only if the player is in a CIVILIAN
-// slot; it automatically includes a file which contains the appropriate briefing data.
-
-if (_unitSide == civilian) exitwith {
-
-#include "f_briefing_civ.sqf"
 
 };
 
