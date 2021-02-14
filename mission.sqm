@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5071.5967,30.714375,4811.9546};
-		dir[]={-0.81780833,-0.56003171,-0.13267629};
-		up[]={-0.55280781,0.82846504,-0.089683883};
-		aside[]={-0.16014302,3.2406388e-007,0.98711306};
+		pos[]={4967.7842,34.281769,3230.0664};
+		dir[]={0.077416852,-0.76842833,0.63532871};
+		up[]={0.092946544,0.63994849,0.76277119};
+		aside[]={0.99270457,1.4423349e-006,-0.12096577};
 	};
 };
 binarizationWanted=0;
@@ -334,14 +334,14 @@ class Mission
 		class Item15
 		{
 			dataType="Trigger";
-			position[]={5005.9595,5,3982.855};
+			position[]={5005.959,5,3982.855};
 			class Attributes
 			{
 				sizeA=3000;
 				sizeB=3000;
 				timeout[]={30,30,30};
 				activationType="NOT PRESENT";
-				activationBy="WEST";
+				activationBy="GUER";
 				type="END2";
 			};
 			id=15;
@@ -402,7 +402,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH1";
 			};
 			id=20;
@@ -444,7 +444,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];";
 				name="VehCSAT_TH1";
 			};
 			id=21;
@@ -463,7 +463,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH2";
 			};
 			id=22;
@@ -482,7 +482,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH3";
 			};
 			id=23;
@@ -501,7 +501,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH4";
 			};
 			id=24;
@@ -520,7 +520,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH5";
 			};
 			id=25;
@@ -539,7 +539,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH6";
 			};
 			id=26;
@@ -558,7 +558,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH7";
 			};
 			id=27;
@@ -577,7 +577,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this,""ind_f""] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehIND_TH8";
 			};
 			id=28;
@@ -596,7 +596,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];";
 				name="VehCSAT_TH2";
 			};
 			id=29;
@@ -615,7 +615,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];";
 				name="VehCSAT_TH3";
 			};
 			id=30;
@@ -634,7 +634,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];";
 				name="VehCSAT_TH4";
 			};
 			id=31;
@@ -653,7 +653,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];";
 				name="VehCSAT_TH5";
 			};
 			id=32;
@@ -672,7 +672,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];";
 				name="VehCSAT_TH6";
 			};
 			id=33;
@@ -691,7 +691,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];";
 				name="VehCSAT_TH7";
 			};
 			id=34;
@@ -710,11 +710,34 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				init="call{this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(1,0,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""];}";
 				name="VehCSAT_TH8";
 			};
 			id=35;
 			type="B_Heli_Light_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""arifle_MXC_F"",""FirstAidKit""],[2,2]],[[""SmokeShell"",""SmokeShellBlue"",""30Rnd_65x39_caseless_mag""],[2,2,4]],[[""ToolKit"",""ItemGPS""],[1,1]],[[""B_Parachute""],[4]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item35
 		{
