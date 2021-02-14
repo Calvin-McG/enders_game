@@ -98,10 +98,6 @@ Force safety on for all players</execute><br/>
 hintsilent 'Safety off!' "">
 Force safety off for all players</execute><br/>
 
-|- <execute expression=""[] spawn f_fnc_mapClickSupplyDropUnit;
- "">
-Map Click Supply Drop</execute><br/>
-
 <br/>
 ";
 
