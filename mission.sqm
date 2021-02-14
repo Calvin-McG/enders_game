@@ -402,8 +402,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH1";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH1";
 			};
 			id=20;
 			type="B_Heli_Light_01_F";
@@ -463,8 +463,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH2";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH2";
 			};
 			id=22;
 			type="B_Heli_Light_01_F";
@@ -482,8 +482,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH3";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH3";
 			};
 			id=23;
 			type="B_Heli_Light_01_F";
@@ -501,8 +501,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH4";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH4";
 			};
 			id=24;
 			type="B_Heli_Light_01_F";
@@ -520,8 +520,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH5";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH5";
 			};
 			id=25;
 			type="B_Heli_Light_01_F";
@@ -539,8 +539,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH6";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH6";
 			};
 			id=26;
 			type="B_Heli_Light_01_F";
@@ -558,8 +558,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH7";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH7";
 			};
 			id=27;
 			type="B_Heli_Light_01_F";
@@ -577,8 +577,8 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,0,1,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
-				name="VehNATO_TH8";
+				init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTexture [0,""#(rgb,8,8,3)color(0,1,0,1)""]; this addweapon ""CMFlareLauncher""; this addmagazine ""300Rnd_CMFlare_Chaff_Magazine""; [""v_ifv"",this] call f_fnc_assignGear; this addAction [""Repair the heli (Must be below 25m)"", ""repair.sqf""]; this addAction [""Replenish Ammo (Must be below 25m)"", ""ammo.sqf""];";
+				name="VehGUER_TH8";
 			};
 			id=28;
 			type="B_Heli_Light_01_F";
@@ -9205,7 +9205,7 @@ class Mission
 		class Item507
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -9217,15 +9217,15 @@ class Mission
 						position[]={4958.2632,5.0014391,3254.083};
 						angles[]={0,0.020961404,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="call{GrpNATO_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH1;}";
-						name="UnitNATO_TH1_P";
-						description="NATO Transport Helo 1 Pilot";
+						init="call{GrpGUER_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH1;}";
+						name="UnitGUER_TH1_P";
+						description="GUER Transport Helo 1 Pilot";
 						isPlayer=1;
 						isPlayable=1;
 					};
@@ -9282,15 +9282,15 @@ class Mission
 						position[]={4963.1567,5.0014391,3249.0298};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH1,[4]];";
-						name="UnitNATO_TH1_CP";
-						description="NATO Transport Helo 1 Gunner";
+						init="GrpGUER_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH1,[4]];";
+						name="UnitGUER_TH1_CP";
+						description="GUER Transport Helo 1 Gunner";
 						isPlayable=1;
 					};
 					id=510;
@@ -9304,15 +9304,15 @@ class Mission
 						position[]={4953.1592,5.0014391,3249.2395};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH1,[1]];";
-						name="UnitNATO_TH1_G1";
-						description="NATO Transport Helo 1 Gunner";
+						init="GrpGUER_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH1,[1]];";
+						name="UnitGUER_TH1_G1";
+						description="GUER Transport Helo 1 Gunner";
 						isPlayable=1;
 					};
 					id=511;
@@ -9326,15 +9326,15 @@ class Mission
 						position[]={4968.0508,5.0014391,3243.9263};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH1,[2]];";
-						name="UnitNATO_TH1_G2";
-						description="NATO Transport Helo 1 Gunner";
+						init="GrpGUER_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH1,[2]];";
+						name="UnitGUER_TH1_G2";
+						description="GUER Transport Helo 1 Gunner";
 						isPlayable=1;
 					};
 					id=512;
@@ -9348,15 +9348,15 @@ class Mission
 						position[]={4948.0552,5.0014391,3244.3452};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH1,[3]];";
-						name="UnitNATO_TH1_G2_1";
-						description="NATO Transport Helo 1 Gunner";
+						init="GrpGUER_TH1 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH1,[3]];";
+						name="UnitGUER_TH1_G2_1";
+						description="GUER Transport Helo 1 Gunner";
 						isPlayable=1;
 					};
 					id=513;
@@ -9494,7 +9494,7 @@ class Mission
 		class Item509
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -9506,15 +9506,15 @@ class Mission
 						position[]={4957.8989,5.0014391,3226.0806};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="GrpNATO_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH2;";
-						name="UnitNATO_TH2_P";
-						description="NATO Transport Helo 2 Pilot";
+						init="GrpGUER_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH2;";
+						name="UnitGUER_TH2_P";
+						description="GUER Transport Helo 2 Pilot";
 						isPlayable=1;
 					};
 					id=521;
@@ -9528,15 +9528,15 @@ class Mission
 						position[]={4962.793,5.0014391,3221.0269};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH2,[4]];";
-						name="UnitNATO_TH2_CP";
-						description="NATO Transport Helo 2 Gunner";
+						init="GrpGUER_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH2,[4]];";
+						name="UnitGUER_TH2_CP";
+						description="GUER Transport Helo 2 Gunner";
 						isPlayable=1;
 					};
 					id=522;
@@ -9550,15 +9550,15 @@ class Mission
 						position[]={4952.7954,5.0014391,3221.2366};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH2,[1]];";
-						name="UnitNATO_TH2_G1";
-						description="NATO Transport Helo 2 Gunner";
+						init="GrpGUER_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH2,[1]];";
+						name="UnitGUER_TH2_G1";
+						description="GUER Transport Helo 2 Gunner";
 						isPlayable=1;
 					};
 					id=523;
@@ -9572,15 +9572,15 @@ class Mission
 						position[]={4967.687,5.0014391,3215.9233};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH2,[2]];";
-						name="UnitNATO_TH2_G2";
-						description="NATO Transport Helo 2 Gunner";
+						init="GrpGUER_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH2,[2]];";
+						name="UnitGUER_TH2_G2";
+						description="GUER Transport Helo 2 Gunner";
 						isPlayable=1;
 					};
 					id=524;
@@ -9594,15 +9594,15 @@ class Mission
 						position[]={4947.6914,5.0014391,3216.3423};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH2,[3]];";
-						name="UnitNATO_TH2_G2_1";
-						description="NATO Transport Helo 2 Gunner";
+						init="GrpGUER_TH2 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH2,[3]];";
+						name="UnitGUER_TH2_G2_1";
+						description="GUER Transport Helo 2 Gunner";
 						isPlayable=1;
 					};
 					id=525;
@@ -9617,7 +9617,7 @@ class Mission
 		class Item510
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -9629,15 +9629,15 @@ class Mission
 						position[]={4982.3638,5.0014391,3253.7104};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="GrpNATO_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH3;";
-						name="UnitNATO_TH3_P";
-						description="NATO Transport Helo 3 Pilot";
+						init="GrpGUER_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH3;";
+						name="UnitGUER_TH3_P";
+						description="GUER Transport Helo 3 Pilot";
 						isPlayable=1;
 					};
 					id=527;
@@ -9651,15 +9651,15 @@ class Mission
 						position[]={4987.2578,5.0014391,3248.6567};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH3,[4]];";
-						name="UnitNATO_TH3_CP";
-						description="NATO Transport Helo 3 Gunner";
+						init="GrpGUER_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH3,[4]];";
+						name="UnitGUER_TH3_CP";
+						description="GUER Transport Helo 3 Gunner";
 						isPlayable=1;
 					};
 					id=528;
@@ -9673,15 +9673,15 @@ class Mission
 						position[]={4977.2603,5.0014391,3248.8665};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH3,[1]];";
-						name="UnitNATO_TH3_G1";
-						description="NATO Transport Helo 3 Gunner";
+						init="GrpGUER_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH3,[1]];";
+						name="UnitGUER_TH3_G1";
+						description="GUER Transport Helo 3 Gunner";
 						isPlayable=1;
 					};
 					id=529;
@@ -9695,15 +9695,15 @@ class Mission
 						position[]={4992.1519,5.0014391,3243.5532};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH3,[2]];";
-						name="UnitNATO_TH3_G2";
-						description="NATO Transport Helo 3 Gunner";
+						init="GrpGUER_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH3,[2]];";
+						name="UnitGUER_TH3_G2";
+						description="GUER Transport Helo 3 Gunner";
 						isPlayable=1;
 					};
 					id=530;
@@ -9717,15 +9717,15 @@ class Mission
 						position[]={4972.1563,5.0014391,3243.9722};
 						angles[]={0,0.020958086,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH3,[3]];";
-						name="UnitNATO_TH3_G2_1";
-						description="NATO Transport Helo 3 Gunner";
+						init="GrpGUER_TH3 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH3,[3]];";
+						name="UnitGUER_TH3_G2_1";
+						description="GUER Transport Helo 3 Gunner";
 						isPlayable=1;
 					};
 					id=531;
@@ -9740,7 +9740,7 @@ class Mission
 		class Item511
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -9752,15 +9752,15 @@ class Mission
 						position[]={4982.5107,5.0014391,3226.1125};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="GrpNATO_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH4;";
-						name="UnitNATO_TH4_P";
-						description="NATO Transport Helo 4 Pilot";
+						init="GrpGUER_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH4;";
+						name="UnitGUER_TH4_P";
+						description="GUER Transport Helo 4 Pilot";
 						isPlayable=1;
 					};
 					id=533;
@@ -9774,15 +9774,15 @@ class Mission
 						position[]={4987.4048,5.0014391,3221.0588};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH4,[4]];";
-						name="UnitNATO_TH4_CP";
-						description="NATO Transport Helo 4 Gunner";
+						init="GrpGUER_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH4,[4]];";
+						name="UnitGUER_TH4_CP";
+						description="GUER Transport Helo 4 Gunner";
 						isPlayable=1;
 					};
 					id=534;
@@ -9796,15 +9796,15 @@ class Mission
 						position[]={4977.4072,5.0014391,3221.2686};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH4,[1]];";
-						name="UnitNATO_TH4_G1";
-						description="NATO Transport Helo 4 Gunner";
+						init="GrpGUER_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH4,[1]];";
+						name="UnitGUER_TH4_G1";
+						description="GUER Transport Helo 4 Gunner";
 						isPlayable=1;
 					};
 					id=535;
@@ -9818,15 +9818,15 @@ class Mission
 						position[]={4992.2988,5.0014391,3215.9553};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH4,[2]];";
-						name="UnitNATO_TH4_G2";
-						description="NATO Transport Helo 4 Gunner";
+						init="GrpGUER_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH4,[2]];";
+						name="UnitGUER_TH4_G2";
+						description="GUER Transport Helo 4 Gunner";
 						isPlayable=1;
 					};
 					id=536;
@@ -9840,15 +9840,15 @@ class Mission
 						position[]={4972.3032,5.0014391,3216.3743};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH4,[3]];";
-						name="UnitNATO_TH4_G2_1";
-						description="NATO Transport Helo 4 Gunner";
+						init="GrpGUER_TH4 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH4,[3]];";
+						name="UnitGUER_TH4_G2_1";
+						description="GUER Transport Helo 4 Gunner";
 						isPlayable=1;
 					};
 					id=537;
@@ -9863,7 +9863,7 @@ class Mission
 		class Item512
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -9875,15 +9875,15 @@ class Mission
 						position[]={5009.1016,5.0014391,3253.3896};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="GrpNATO_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH5;";
-						name="UnitNATO_TH5_P";
-						description="NATO Transport Helo 5 Pilot";
+						init="GrpGUER_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH5;";
+						name="UnitGUER_TH5_P";
+						description="GUER Transport Helo 5 Pilot";
 						isPlayable=1;
 					};
 					id=539;
@@ -9897,15 +9897,15 @@ class Mission
 						position[]={5013.9956,5.0014391,3248.3359};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH5,[4]];";
-						name="UnitNATO_TH5_CP";
-						description="NATO Transport Helo 5 Gunner";
+						init="GrpGUER_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH5,[4]];";
+						name="UnitGUER_TH5_CP";
+						description="GUER Transport Helo 5 Gunner";
 						isPlayable=1;
 					};
 					id=540;
@@ -9919,15 +9919,15 @@ class Mission
 						position[]={5003.998,5.0014391,3248.5457};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH5,[1]];";
-						name="UnitNATO_TH5_G1";
-						description="NATO Transport Helo 5 Gunner";
+						init="GrpGUER_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH5,[1]];";
+						name="UnitGUER_TH5_G1";
+						description="GUER Transport Helo 5 Gunner";
 						isPlayable=1;
 					};
 					id=541;
@@ -9941,15 +9941,15 @@ class Mission
 						position[]={5018.8896,5.0014391,3243.2324};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH5,[2]];";
-						name="UnitNATO_TH5_G2";
-						description="NATO Transport Helo 5 Gunner";
+						init="GrpGUER_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH5,[2]];";
+						name="UnitGUER_TH5_G2";
+						description="GUER Transport Helo 5 Gunner";
 						isPlayable=1;
 					};
 					id=542;
@@ -9963,15 +9963,15 @@ class Mission
 						position[]={4998.894,5.0014391,3243.6514};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH5,[3]];";
-						name="UnitNATO_TH5_G2_1";
-						description="NATO Transport Helo 5 Gunner";
+						init="GrpGUER_TH5 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH5,[3]];";
+						name="UnitGUER_TH5_G2_1";
+						description="GUER Transport Helo 5 Gunner";
 						isPlayable=1;
 					};
 					id=543;
@@ -9986,7 +9986,7 @@ class Mission
 		class Item513
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -9998,15 +9998,15 @@ class Mission
 						position[]={5008.751,5.0014391,3225.4031};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="GrpNATO_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH6;";
-						name="UnitNATO_TH6_P";
-						description="NATO Transport Helo 6 Pilot";
+						init="GrpGUER_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH6;";
+						name="UnitGUER_TH6_P";
+						description="GUER Transport Helo 6 Pilot";
 						isPlayable=1;
 					};
 					id=545;
@@ -10020,15 +10020,15 @@ class Mission
 						position[]={5013.645,5.0014391,3220.3494};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH6,[4]];";
-						name="UnitNATO_TH6_CP";
-						description="NATO Transport Helo 6 Gunner";
+						init="GrpGUER_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH6,[4]];";
+						name="UnitGUER_TH6_CP";
+						description="GUER Transport Helo 6 Gunner";
 						isPlayable=1;
 					};
 					id=546;
@@ -10042,15 +10042,15 @@ class Mission
 						position[]={5003.6475,5.0014391,3220.5591};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH6,[1]];";
-						name="UnitNATO_TH6_G1";
-						description="NATO Transport Helo 6 Gunner";
+						init="GrpGUER_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH6,[1]];";
+						name="UnitGUER_TH6_G1";
+						description="GUER Transport Helo 6 Gunner";
 						isPlayable=1;
 					};
 					id=547;
@@ -10064,15 +10064,15 @@ class Mission
 						position[]={5018.5391,5.0014391,3215.2458};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH6,[2]];";
-						name="UnitNATO_TH6_G2";
-						description="NATO Transport Helo 6 Gunner";
+						init="GrpGUER_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH6,[2]];";
+						name="UnitGUER_TH6_G2";
+						description="GUER Transport Helo 6 Gunner";
 						isPlayable=1;
 					};
 					id=548;
@@ -10086,15 +10086,15 @@ class Mission
 						position[]={4998.5435,5.0014391,3215.6648};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH6,[3]];";
-						name="UnitNATO_TH6_G2_1";
-						description="NATO Transport Helo 6 Gunner";
+						init="GrpGUER_TH6 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH6,[3]];";
+						name="UnitGUER_TH6_G2_1";
+						description="GUER Transport Helo 6 Gunner";
 						isPlayable=1;
 					};
 					id=549;
@@ -10109,7 +10109,7 @@ class Mission
 		class Item514
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -10121,15 +10121,15 @@ class Mission
 						position[]={5034.0229,5.0014391,3253.0605};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="GrpNATO_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH7;";
-						name="UnitNATO_TH7_P";
-						description="NATO Transport Helo 7 Pilot";
+						init="GrpGUER_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH7;";
+						name="UnitGUER_TH7_P";
+						description="GUER Transport Helo 7 Pilot";
 						isPlayable=1;
 					};
 					id=551;
@@ -10143,15 +10143,15 @@ class Mission
 						position[]={5038.917,5.0014391,3248.0068};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH7,[4]];";
-						name="UnitNATO_TH7_CP";
-						description="NATO Transport Helo 7 Gunner";
+						init="GrpGUER_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH7,[4]];";
+						name="UnitGUER_TH7_CP";
+						description="GUER Transport Helo 7 Gunner";
 						isPlayable=1;
 					};
 					id=552;
@@ -10165,15 +10165,15 @@ class Mission
 						position[]={5028.9194,5.0014391,3248.2166};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH7,[1]];";
-						name="UnitNATO_TH7_G1";
-						description="NATO Transport Helo 7 Gunner";
+						init="GrpGUER_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH7,[1]];";
+						name="UnitGUER_TH7_G1";
+						description="GUER Transport Helo 7 Gunner";
 						isPlayable=1;
 					};
 					id=553;
@@ -10187,15 +10187,15 @@ class Mission
 						position[]={5043.811,5.0014391,3242.9033};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH7,[2]];";
-						name="UnitNATO_TH7_G2";
-						description="NATO Transport Helo 7 Gunner";
+						init="GrpGUER_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH7,[2]];";
+						name="UnitGUER_TH7_G2";
+						description="GUER Transport Helo 7 Gunner";
 						isPlayable=1;
 					};
 					id=554;
@@ -10209,15 +10209,15 @@ class Mission
 						position[]={5023.8154,5.0014391,3243.3223};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH7,[3]];";
-						name="UnitNATO_TH7_G2_1";
-						description="NATO Transport Helo 7 Gunner";
+						init="GrpGUER_TH7 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH7,[3]];";
+						name="UnitGUER_TH7_G2_1";
+						description="GUER Transport Helo 7 Gunner";
 						isPlayable=1;
 					};
 					id=555;
@@ -10232,7 +10232,7 @@ class Mission
 		class Item515
 		{
 			dataType="Group";
-			side="West";
+			side="GUER";
 			class Entities
 			{
 				items=5;
@@ -10244,15 +10244,15 @@ class Mission
 						position[]={5033.3613,5.0014391,3225.4343};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CAPTAIN";
-						init="GrpNATO_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehNATO_TH8;";
-						name="UnitNATO_TH8_P";
-						description="NATO Transport Helo 8 Pilot";
+						init="GrpGUER_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInDriver VehGUER_TH8;";
+						name="UnitGUER_TH8_P";
+						description="GUER Transport Helo 8 Pilot";
 						isPlayable=1;
 					};
 					id=557;
@@ -10266,15 +10266,15 @@ class Mission
 						position[]={5038.2554,5.0014391,3220.3806};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						init="GrpNATO_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH8,[4]];";
-						name="UnitNATO_TH8_CP";
-						description="NATO Transport Helo 8 Gunner";
+						init="GrpGUER_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH8,[4]];";
+						name="UnitGUER_TH8_CP";
+						description="GUER Transport Helo 8 Gunner";
 						isPlayable=1;
 					};
 					id=558;
@@ -10288,15 +10288,15 @@ class Mission
 						position[]={5028.2578,5.0014391,3220.5903};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpNATO_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH8,[1]];";
-						name="UnitNATO_TH8_G1";
-						description="NATO Transport Helo 8 Gunner";
+						init="GrpGUER_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH8,[1]];";
+						name="UnitGUER_TH8_G1";
+						description="GUER Transport Helo 8 Gunner";
 						isPlayable=1;
 					};
 					id=559;
@@ -10310,15 +10310,15 @@ class Mission
 						position[]={5043.1494,5.0014391,3215.2771};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH8,[2]];";
-						name="UnitNATO_TH8_G2";
-						description="NATO Transport Helo 8 Gunner";
+						init="GrpGUER_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH8,[2]];";
+						name="UnitGUER_TH8_G2";
+						description="GUER Transport Helo 8 Gunner";
 						isPlayable=1;
 					};
 					id=560;
@@ -10332,15 +10332,15 @@ class Mission
 						position[]={5023.1538,5.0014391,3215.696};
 						angles[]={0,0.020958127,0};
 					};
-					side="West";
+					side="GUER";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpNATO_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehNATO_TH8,[3]];";
-						name="UnitNATO_TH8_G2_1";
-						description="NATO Transport Helo 8 Gunner";
+						init="GrpGUER_TH8 = group this; [""mmgg"",this] call f_fnc_assignGear; this moveInTurret [VehGUER_TH8,[3]];";
+						name="UnitGUER_TH8_G2_1";
+						description="GUER Transport Helo 8 Gunner";
 						isPlayable=1;
 					};
 					id=561;
@@ -11272,8 +11272,8 @@ class Mission
 			{
 				position[]={4955.7495,5,3237.543};
 			};
-			init="this attachTo [VehNATO_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH1_P";
+			init="this attachTo [VehGUER_TH1, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH1_P";
 			id=620;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11307,8 +11307,8 @@ class Mission
 			{
 				position[]={4980.1309,5,3237.8228};
 			};
-			init="this attachTo [VehNATO_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH3_P";
+			init="this attachTo [VehGUER_TH3, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH3_P";
 			id=621;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11342,8 +11342,8 @@ class Mission
 			{
 				position[]={5008.2959,5,3237.7417};
 			};
-			init="this attachTo [VehNATO_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH5_P";
+			init="this attachTo [VehGUER_TH5, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH5_P";
 			id=622;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11377,8 +11377,8 @@ class Mission
 			{
 				position[]={4956.2104,5,3210.3794};
 			};
-			init="this attachTo [VehNATO_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH2_P";
+			init="this attachTo [VehGUER_TH2, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH2_P";
 			id=623;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11412,8 +11412,8 @@ class Mission
 			{
 				position[]={4981.3555,5,3210.7871};
 			};
-			init="this attachTo [VehNATO_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH4_P";
+			init="this attachTo [VehGUER_TH4, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH4_P";
 			id=624;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11447,8 +11447,8 @@ class Mission
 			{
 				position[]={5007.2349,5,3211.4409};
 			};
-			init="this attachTo [VehNATO_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH6_P";
+			init="this attachTo [VehGUER_TH6, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH6_P";
 			id=625;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11482,8 +11482,8 @@ class Mission
 			{
 				position[]={5032.2163,5,3210.7876};
 			};
-			init="this attachTo [VehNATO_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH8_P";
+			init="this attachTo [VehGUER_TH8, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH8_P";
 			id=626;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11517,8 +11517,8 @@ class Mission
 			{
 				position[]={5032.9512,5,3237.333};
 			};
-			init="this attachTo [VehNATO_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH7_P";
+			init="this attachTo [VehGUER_TH7, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH7_P";
 			id=627;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11840,8 +11840,8 @@ class Mission
 			{
 				position[]={4962.4434,5,3236.6494};
 			};
-			init="this attachTo [VehNATO_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH1_P";
+			init="this attachTo [VehGUER_TH1, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH1_P";
 			id=636;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11875,8 +11875,8 @@ class Mission
 			{
 				position[]={4986.8247,5,3236.9292};
 			};
-			init="this attachTo [VehNATO_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH3_P";
+			init="this attachTo [VehGUER_TH3, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH3_P";
 			id=637;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11910,8 +11910,8 @@ class Mission
 			{
 				position[]={5014.9897,5,3236.8481};
 			};
-			init="this attachTo [VehNATO_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH5_P";
+			init="this attachTo [VehGUER_TH5, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH5_P";
 			id=638;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11945,8 +11945,8 @@ class Mission
 			{
 				position[]={5039.645,5,3236.4395};
 			};
-			init="this attachTo [VehNATO_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH7_P";
+			init="this attachTo [VehGUER_TH7, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH7_P";
 			id=639;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11980,8 +11980,8 @@ class Mission
 			{
 				position[]={4962.1611,5,3210.3794};
 			};
-			init="this attachTo [VehNATO_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH2_P";
+			init="this attachTo [VehGUER_TH2, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH2_P";
 			id=640;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12015,8 +12015,8 @@ class Mission
 			{
 				position[]={4987.3062,5,3210.7871};
 			};
-			init="this attachTo [VehNATO_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH4_P";
+			init="this attachTo [VehGUER_TH4, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH4_P";
 			id=641;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12050,8 +12050,8 @@ class Mission
 			{
 				position[]={5013.1855,5,3211.4409};
 			};
-			init="this attachTo [VehNATO_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH6_P";
+			init="this attachTo [VehGUER_TH6, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH6_P";
 			id=642;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12085,8 +12085,8 @@ class Mission
 			{
 				position[]={5038.167,5,3210.7876};
 			};
-			init="this attachTo [VehNATO_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH8_P";
+			init="this attachTo [VehGUER_TH8, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH8_P";
 			id=643;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12120,8 +12120,8 @@ class Mission
 			{
 				position[]={4955.75,5,3232.9292};
 			};
-			init="this attachTo [VehNATO_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH1_P";
+			init="this attachTo [VehGUER_TH1, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH1_P";
 			id=644;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12155,8 +12155,8 @@ class Mission
 			{
 				position[]={4980.1313,5,3233.209};
 			};
-			init="this attachTo [VehNATO_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH3_P";
+			init="this attachTo [VehGUER_TH3, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH3_P";
 			id=645;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12190,8 +12190,8 @@ class Mission
 			{
 				position[]={5008.2964,5,3233.1279};
 			};
-			init="this attachTo [VehNATO_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH5_P";
+			init="this attachTo [VehGUER_TH5, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH5_P";
 			id=646;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12225,8 +12225,8 @@ class Mission
 			{
 				position[]={5032.9517,5,3232.7192};
 			};
-			init="this attachTo [VehNATO_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH7_P";
+			init="this attachTo [VehGUER_TH7, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH7_P";
 			id=647;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12260,8 +12260,8 @@ class Mission
 			{
 				position[]={4962.4438,5,3232.0356};
 			};
-			init="this attachTo [VehNATO_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH1_P";
+			init="this attachTo [VehGUER_TH1, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH1_P";
 			id=648;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12295,8 +12295,8 @@ class Mission
 			{
 				position[]={4986.8252,5,3232.3154};
 			};
-			init="this attachTo [VehNATO_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH3_P";
+			init="this attachTo [VehGUER_TH3, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH3_P";
 			id=649;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12330,8 +12330,8 @@ class Mission
 			{
 				position[]={5014.9902,5,3232.2344};
 			};
-			init="this attachTo [VehNATO_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH5_P";
+			init="this attachTo [VehGUER_TH5, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH5_P";
 			id=650;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12365,8 +12365,8 @@ class Mission
 			{
 				position[]={5039.6455,5,3231.8257};
 			};
-			init="this attachTo [VehNATO_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH7_P";
+			init="this attachTo [VehGUER_TH7, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH7_P";
 			id=651;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12400,8 +12400,8 @@ class Mission
 			{
 				position[]={4957.103,5,3205.3188};
 			};
-			init="this attachTo [VehNATO_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH2_P";
+			init="this attachTo [VehGUER_TH2, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH2_P";
 			id=652;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12435,8 +12435,8 @@ class Mission
 			{
 				position[]={4982.248,5,3205.7266};
 			};
-			init="this attachTo [VehNATO_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH4_P";
+			init="this attachTo [VehGUER_TH4, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH4_P";
 			id=653;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12470,8 +12470,8 @@ class Mission
 			{
 				position[]={5008.1274,5,3206.3804};
 			};
-			init="this attachTo [VehNATO_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH6_P";
+			init="this attachTo [VehGUER_TH6, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH6_P";
 			id=654;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12505,8 +12505,8 @@ class Mission
 			{
 				position[]={5033.1089,5,3205.7271};
 			};
-			init="this attachTo [VehNATO_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH8_P";
+			init="this attachTo [VehGUER_TH8, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH8_P";
 			id=655;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12540,8 +12540,8 @@ class Mission
 			{
 				position[]={4963.0537,5,3205.3188};
 			};
-			init="this attachTo [VehNATO_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH2_P";
+			init="this attachTo [VehGUER_TH2, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH2_P";
 			id=656;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12575,8 +12575,8 @@ class Mission
 			{
 				position[]={4988.1987,5,3205.7266};
 			};
-			init="this attachTo [VehNATO_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH4_P";
+			init="this attachTo [VehGUER_TH4, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH4_P";
 			id=657;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12610,8 +12610,8 @@ class Mission
 			{
 				position[]={5014.0781,5,3206.3804};
 			};
-			init="this attachTo [VehNATO_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH6_P";
+			init="this attachTo [VehGUER_TH6, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH6_P";
 			id=658;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12645,8 +12645,8 @@ class Mission
 			{
 				position[]={5038.7896,5,3205.5942};
 			};
-			init="this attachTo [VehNATO_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitNATO_TH8_P";
+			init="this attachTo [VehGUER_TH8, [0, -2.5, 0] ]; ";
+			presenceCondition="alive UnitGUER_TH8_P";
 			id=659;
 			type="ModuleChemlight_F";
 			class CustomAttributes
