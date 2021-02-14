@@ -175,27 +175,17 @@ _ARattachments = [_scope1,_attach1,_bipod1];
 _ARmagamount = 7;
 
 // Medium MG
-_MMG = "MMG_02_sand_F";
-_MMGmag = "130Rnd_338_Mag";
-_MMGmag_tr = "ACE_130Rnd_338_Mag_yellow";
-_MMGattachments = [_scope2,_attach1,_bipod1];
+_MMG = "LMG_Zafir_F";
+_MMGmag = "150Rnd_762x54_Box_Tracer";
+_MMGmag_tr = "150Rnd_762x54_Box_Tracer";
+_MMGattachments = [_scope2,_attach1];
 _MMGmagamount = 4;
-
-
-// NON-DLC ALTERNATIVE:
-// _MMG = "LMG_Zafir_F";
-// _MMGmag = ""150Rnd_762x54_Box"";
-// _MMGmag_tr = ""150Rnd_762x54_Box"_Tracer";
 
 // Marksman rifle - DM
 _DMrifle = "srifle_EBR_F";
 _DMriflemag = "20Rnd_762x51_Mag";
 _DMattachments = [_scope2,_attach1,_bipod1];
 _DMriflemagamount = 10;
-
-// Mk14
-//_DMrifle = "srifle_DMR_06_olive_F";
-//_DMriflemag = "20Rnd_762x51_Mag";
 
 // Light anti tank. To indicate that a weapon is single shot, write _RATmag = "";
 _RAT = "launch_NLAW_F";
