@@ -49,20 +49,6 @@ class CA
 		file = "ca\respawn";
 		class respawnwave{};
 	};
-	class spawn
-	{
-		file = "ca\spawn";
-		class spawnattack{};
-		class spawncharge{};
-		class spawnfortify{};
-		class spawngroup{};
-		class spawnpatrol{};
-		class spawnvehicle{};
-		class spawnvehicleattack{};
-		class spawnvehiclegroup{};
-		class spawnvehiclepatrol{};
-		class spawnvehiclestatic{};
-	};
 
 	class zeusui
 	{

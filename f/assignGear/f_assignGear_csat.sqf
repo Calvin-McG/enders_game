@@ -100,7 +100,7 @@ if (_isMan) then {
 	_unit linkItem "ItemCompass";			// Add and equip a compass
 	_unit linkItem "ACE_Altimeter";				// Add and equip a watch
 	_unit linkItem "ItemGPS"; 			// Add and equip a GPS
-	_unit linkItem _laserdesignator;
+	_unit addweapon _laserdesignator;
 
 	// ADD ACE ITEMS
 	_unit addItem "ACE_Flashlight_XL50";	// Add a flashlight for ACE map support.
@@ -155,7 +155,7 @@ switch (_typeofUnit) do
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_MMGmag, 2];
+		_unit addMagazineCargoGlobal [_MMGmag, 12];
 		_unit addMagazineCargoGlobal [_grenade, 8];
 		_unit addmagazineCargoGlobal [_mgrenade,8];
 		_unit addMagazineCargoGlobal [_smokegrenade, 8];

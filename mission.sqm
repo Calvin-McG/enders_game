@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4946.4302,72.866783,3143.332};
-		dir[]={0.30426887,-0.56531531,0.76674896};
-		up[]={0.20851822,0.82486641,0.52546066};
-		aside[]={0.92951602,-4.4218905e-007,-0.36885837};
+		pos[]={4962.8242,31.649445,3206.707};
+		dir[]={0.17391843,-0.51677918,0.83830619};
+		up[]={0.10497939,0.85610944,0.50601351};
+		aside[]={0.97917831,-3.7188875e-007,-0.20314315};
 	};
 };
 binarizationWanted=0;
@@ -11624,7 +11624,6 @@ class Mission
 				position[]={4955.7495,5,3237.543};
 			};
 			init="this attachTo [VehIND_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH1_P";
 			id=620;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11659,7 +11658,6 @@ class Mission
 				position[]={4980.1309,5,3237.8228};
 			};
 			init="this attachTo [VehIND_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH3_P";
 			id=621;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11694,7 +11692,6 @@ class Mission
 				position[]={5008.2959,5,3237.7417};
 			};
 			init="this attachTo [VehIND_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH5_P";
 			id=622;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11729,7 +11726,6 @@ class Mission
 				position[]={4956.21,5,3210.3789};
 			};
 			init="this attachTo [VehIND_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH2_P";
 			id=623;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11764,7 +11760,6 @@ class Mission
 				position[]={4981.3555,5,3210.7871};
 			};
 			init="this attachTo [VehIND_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH4_P";
 			id=624;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11799,7 +11794,6 @@ class Mission
 				position[]={5007.2349,5,3211.4409};
 			};
 			init="this attachTo [VehIND_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH6_P";
 			id=625;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11834,7 +11828,6 @@ class Mission
 				position[]={5032.2163,5,3210.7876};
 			};
 			init="this attachTo [VehIND_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH8_P";
 			id=626;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11869,7 +11862,6 @@ class Mission
 				position[]={5032.9512,5,3237.333};
 			};
 			init="this attachTo [VehIND_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH7_P";
 			id=627;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11905,7 +11897,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH1_P";
 			id=628;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11941,7 +11932,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH3_P";
 			id=629;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -11977,7 +11967,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH5_P";
 			id=630;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12013,7 +12002,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH7_P";
 			id=631;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12049,7 +12037,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH2_P";
 			id=632;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12085,7 +12072,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH4_P";
 			id=633;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12121,7 +12107,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH6_P";
 			id=634;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12157,7 +12142,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH8_P";
 			id=635;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12192,7 +12176,6 @@ class Mission
 				position[]={4962.4434,5,3236.6494};
 			};
 			init="this attachTo [VehIND_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH1_P";
 			id=636;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12227,7 +12210,6 @@ class Mission
 				position[]={4986.8247,5,3236.9292};
 			};
 			init="this attachTo [VehIND_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH3_P";
 			id=637;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12262,7 +12244,6 @@ class Mission
 				position[]={5014.9897,5,3236.8481};
 			};
 			init="this attachTo [VehIND_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH5_P";
 			id=638;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12297,7 +12278,6 @@ class Mission
 				position[]={5039.645,5,3236.4395};
 			};
 			init="this attachTo [VehIND_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH7_P";
 			id=639;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12332,7 +12312,6 @@ class Mission
 				position[]={4962.1611,5,3210.3794};
 			};
 			init="this attachTo [VehIND_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH2_P";
 			id=640;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12367,7 +12346,6 @@ class Mission
 				position[]={4987.3062,5,3210.7871};
 			};
 			init="this attachTo [VehIND_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH4_P";
 			id=641;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12402,7 +12380,6 @@ class Mission
 				position[]={5013.1855,5,3211.4409};
 			};
 			init="this attachTo [VehIND_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH6_P";
 			id=642;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12437,7 +12414,6 @@ class Mission
 				position[]={5038.167,5,3210.7876};
 			};
 			init="this attachTo [VehIND_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH8_P";
 			id=643;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12472,7 +12448,6 @@ class Mission
 				position[]={4955.75,5,3232.9292};
 			};
 			init="this attachTo [VehIND_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH1_P";
 			id=644;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12507,7 +12482,6 @@ class Mission
 				position[]={4980.1313,5,3233.209};
 			};
 			init="this attachTo [VehIND_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH3_P";
 			id=645;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12542,7 +12516,6 @@ class Mission
 				position[]={5008.2964,5,3233.1279};
 			};
 			init="this attachTo [VehIND_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH5_P";
 			id=646;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12577,7 +12550,6 @@ class Mission
 				position[]={5032.9517,5,3232.7192};
 			};
 			init="this attachTo [VehIND_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH7_P";
 			id=647;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12612,7 +12584,6 @@ class Mission
 				position[]={4962.4438,5,3232.0356};
 			};
 			init="this attachTo [VehIND_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH1_P";
 			id=648;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12647,7 +12618,6 @@ class Mission
 				position[]={4986.8252,5,3232.3154};
 			};
 			init="this attachTo [VehIND_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH3_P";
 			id=649;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12682,7 +12652,6 @@ class Mission
 				position[]={5014.9902,5,3232.2344};
 			};
 			init="this attachTo [VehIND_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH5_P";
 			id=650;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12717,7 +12686,6 @@ class Mission
 				position[]={5039.6455,5,3231.8257};
 			};
 			init="this attachTo [VehIND_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH7_P";
 			id=651;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12752,7 +12720,6 @@ class Mission
 				position[]={4957.103,5,3205.3188};
 			};
 			init="this attachTo [VehIND_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH2_P";
 			id=652;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12787,7 +12754,6 @@ class Mission
 				position[]={4982.248,5,3205.7266};
 			};
 			init="this attachTo [VehIND_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH4_P";
 			id=653;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12822,7 +12788,6 @@ class Mission
 				position[]={5008.1274,5,3206.3804};
 			};
 			init="this attachTo [VehIND_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH6_P";
 			id=654;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12857,7 +12822,6 @@ class Mission
 				position[]={5033.1089,5,3205.7271};
 			};
 			init="this attachTo [VehIND_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH8_P";
 			id=655;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12892,7 +12856,6 @@ class Mission
 				position[]={4963.0537,5,3205.3188};
 			};
 			init="this attachTo [VehIND_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH2_P";
 			id=656;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12927,7 +12890,6 @@ class Mission
 				position[]={4988.1987,5,3205.7266};
 			};
 			init="this attachTo [VehIND_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH4_P";
 			id=657;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12962,7 +12924,6 @@ class Mission
 				position[]={5014.0781,5,3206.3804};
 			};
 			init="this attachTo [VehIND_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH6_P";
 			id=658;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -12997,7 +12958,6 @@ class Mission
 				position[]={5038.7896,5,3205.5942};
 			};
 			init="this attachTo [VehIND_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitIND_TH8_P";
 			id=659;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13033,7 +12993,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH2_P";
 			id=660;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13069,7 +13028,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH4_P";
 			id=661;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13105,7 +13063,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH6_P";
 			id=662;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13141,7 +13098,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH8_P";
 			id=663;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13177,7 +13133,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH2_P";
 			id=664;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13213,7 +13168,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH4_P";
 			id=665;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13249,7 +13203,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH6_P";
 			id=666;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13285,7 +13238,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH8_P";
 			id=667;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13321,7 +13273,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH2, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH2_P";
 			id=668;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13357,7 +13308,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH4, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH4_P";
 			id=669;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13393,7 +13343,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH6, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH6_P";
 			id=670;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13429,7 +13378,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH8, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH8_P";
 			id=671;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13465,7 +13413,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH1_P";
 			id=672;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13501,7 +13448,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH3_P";
 			id=673;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13537,7 +13483,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH5_P";
 			id=674;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13573,7 +13518,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH7_P";
 			id=675;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13609,7 +13553,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH1_P";
 			id=676;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13645,7 +13588,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH3_P";
 			id=677;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13681,7 +13623,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH5_P";
 			id=678;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13717,7 +13658,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH7_P";
 			id=679;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13753,7 +13693,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH1, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH1_P";
 			id=680;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13789,7 +13728,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH3, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH3_P";
 			id=681;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13825,7 +13763,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH5, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH5_P";
 			id=682;
 			type="ModuleChemlight_F";
 			class CustomAttributes
@@ -13861,7 +13798,6 @@ class Mission
 				angles[]={0,3.1357458,0};
 			};
 			init="this attachTo [VehCSAT_TH7, [0, -2.5, 0] ]; ";
-			presenceCondition="alive UnitCSAT_TH7_P";
 			id=683;
 			type="ModuleChemlight_F";
 			class CustomAttributes
