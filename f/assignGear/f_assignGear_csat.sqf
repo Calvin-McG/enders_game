@@ -100,6 +100,8 @@ if (_isMan) then {
 	_unit linkItem "ItemCompass";			// Add and equip a compass
 	_unit linkItem "ACE_Altimeter";				// Add and equip a watch
 	_unit linkItem "ItemGPS"; 			// Add and equip a GPS
+	
+	_unit addmagazines ["Laserbatteries",1];
 	_unit addweapon _laserdesignator;
 
 	// ADD ACE ITEMS
