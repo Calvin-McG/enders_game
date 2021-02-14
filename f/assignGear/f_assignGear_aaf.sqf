@@ -100,10 +100,12 @@ if (_isMan) then {
 	_unit linkItem "ItemCompass";			// Add and equip a compass
 	_unit linkItem "ACE_Altimeter";				// Add and equip a watch
 	_unit linkItem "ItemGPS"; 			// Add and equip a GPS
+	_unit linkItem _laserdesignator;
 
 	// ADD ACE ITEMS
 	_unit addItem "ACE_Flashlight_XL50";	// Add a flashlight for ACE map support.
 	_unit addItem "ACE_Maptools";
+	_unit addItem "ACE_SpraypaintGreen";
 
 	// Add medical items
 	{_unit addItem "ACE_fieldDressing"} forEach [1,2,3,4]; // Bandages
