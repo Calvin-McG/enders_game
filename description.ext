@@ -18,9 +18,9 @@ class Header
 	// Sandbox	|	Free Game type, think Shady Swindle
 	// Seize	|	Seize a location
 	// Defend	|	Defend a location
-	gameType = Coop;
-	minPlayers = 1;
-	maxPlayers = 100;
+	gameType = TDM;
+	minPlayers = 4;
+	maxPlayers = 80;
 };
 
 // ============================================================================================
@@ -28,9 +28,9 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = "*** Insert mission name here. ***";
+onLoadName = "Ender's Game 0";
 onLoadMission = "Made with the F3_CA Mission Development Framework";
-author = "*** Insert mission author name here. ***";
+author = "Oh Wow, Calvin's Here?";
 loadScreen = "ca_logo_large.jpg";
 
 // ============================================================================================
