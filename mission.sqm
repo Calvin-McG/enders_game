@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=699;
+		nextID=700;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4976.2178,30,4733.4746};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={4946.4302,72.866783,3143.332};
+		dir[]={0.30426887,-0.56531531,0.76674896};
+		up[]={0.20851822,0.82486641,0.52546066};
+		aside[]={0.92951602,-4.4218905e-007,-0.36885837};
 	};
 };
 binarizationWanted=0;
@@ -33,13 +33,14 @@ addons[]=
 	"ace_nouniformrestrictions",
 	"A3_Modules_F",
 	"A3_Modules_F_Effects",
-	"ace_weather"
+	"ace_weather",
+	"AICommand"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -95,6 +96,11 @@ class AddonsMetaData
 			name="ACE3 - Weather";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
+		};
+		class Item8
+		{
+			className="AICommand";
+			name="AICommand";
 		};
 	};
 };
@@ -181,7 +187,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=592;
+		items=593;
 		class Item0
 		{
 			dataType="Marker";
@@ -350,7 +356,7 @@ class Mission
 		class Item16
 		{
 			dataType="Trigger";
-			position[]={5017.624,5,3988.8633};
+			position[]={5017.624,5,3988.863};
 			class Attributes
 			{
 				sizeA=3000;
@@ -1151,8 +1157,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4960.6987,9,4744.0508};
-				angles[]={0,1.5707964,0};
+				position[]={4959.9531,9,4744.1577};
+				angles[]={-0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13952,6 +13958,16 @@ class Mission
 				};
 				nAttributes=3;
 			};
+		};
+		class Item592
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4918.6118,5,3215.666};
+			};
+			id=699;
+			type="AdvancedAICommand_Commanders";
 		};
 	};
 	class Connections

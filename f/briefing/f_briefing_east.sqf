@@ -11,7 +11,7 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+Calvin made this.
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
@@ -23,15 +23,7 @@ Made with F3 (http://www.ferstaberinde.com/f3/en/)
 
 _sit = player createDiaryRecord ["diary", ["Briefing","
 <br/>
-*** Insert general information about the situation here.***
-<br/><br/>
-ENEMY FORCES
-<br/>
-*** Insert information about enemy forces here.***
-<br/><br/>
-FRIENDLY FORCES
-<br/>
-*** Insert information about friendly forces here.***
+You're training to be a spaceman. Obviously the best way to do this is to get in a helicopter and shoot at other people in helicopters.
 "]];
 
 // ====================================================================================
