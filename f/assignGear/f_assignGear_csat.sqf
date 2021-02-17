@@ -14,16 +14,16 @@ _assistantfraction = 1;
 // ====================================================================================
 // Grenades
 _grenade = "ACE_Chemlight_HiRed";
-_grenadeamount = 4;
+_grenadeamount = 2;
 _Mgrenade = "ACE_HandFlare_Red";
-_Mgrenadeamount = 4;
+_Mgrenadeamount = 2;
 _smokegrenade = "SmokeShellRed";
-_smokegrenadeamount = 4;
+_smokegrenadeamount = 2;
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
 _pistol = ["Cre8ive_Pst_CV_Ruka_357"];
 _pistolmag = "Cre8ive_Mag_6Rnd_357_Speedloader_Tracer_Red";
-_pistolmagamount = 3;
+_pistolmagamount = 5;
 _pistolclasses = ["mmg"];
 
 // Medium MG
@@ -33,9 +33,6 @@ _MMGmag_tr = "ACE_150Rnd_762x54_Box_tracer_red";
 _MMGattachments = [_scope1,_attach1];
 _MMGmagamount = 4;
 
-// Chemlights
-_chemlights = ["ACE_Chemlight_HiRed"];
-_chemlightsamount = 0;
 //Binoculars
 _laserdesignator = "Laserdesignator_02"; // Laser Designator
 
@@ -43,10 +40,10 @@ _laserdesignator = "Laserdesignator_02"; // Laser Designator
 
 // CLOTHES AND UNIFORMS
 
-_glasses = [];
-_helmet = ["H_HelmetLeaderO_ocamo"];
-_uniform = [];
-_vest = ["V_PlateCarrierSpec_mtp"];
+_glasses = ["G_Shades_Red"];
+_helmet = ["H_RacingHelmet_1_red_F"];
+_uniform = ["U_O_Protagonist_VR"];
+_vest = ["V_DeckCrew_red_F"];
 _backpack = ["B_ViperLightHarness_hex_F"];
 _outfit = [_glasses,_helmet,_uniform,_vest,_backpack];
 
@@ -121,8 +118,6 @@ if (_isMan) then {
 	{_unit addItem "ACE_epinephrine"} forEach [1,2];
 	{_unit addItem "ACE_adenosine"} forEach [1];
 	{_unit addItem "ACE_bloodIV_500"} forEach [1];
-	//Add chemlights
-	[_chemlights, _chemlightsamount,_unit] call _addrandomitems;
 };
 
 // ====================================================================================
@@ -148,8 +143,8 @@ switch (_typeofUnit) do
 			_unit addPrimaryWeaponItem _x;
 		} 	foreach _MMGattachments;			
 		_unit addmagazines [_smokegrenade,_smokegrenadeamount];
-		_unit addmagazines [_grenade,_grenadeamount];
-		_unit addmagazines [_Mgrenade,_Mgrenadeamount];
+        _unit addmagazines [_grenade,_grenadeamount];
+        _unit addmagazines [_Mgrenade,_Mgrenadeamount];
 	};
 
 // CARGO: IFV - room for 10 weapons and 100 cargo items
@@ -169,7 +164,7 @@ switch (_typeofUnit) do
 		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
 		_unit addItemCargoGlobal ["ACE_splint", 10];
 		_unit addMagazineCargoGlobal [_pistolmag, 6];
-		_unit addMagazineCargoGlobal [_redsmoke, 3];
+		_unit addMagazineCargoGlobal [_greensmoke, 3];
 	};
 
 // CRATE: Small, ammo for 1 fireteam

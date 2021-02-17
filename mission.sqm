@@ -8,7 +8,7 @@ class EditorData
 	toggles=517;
 	class ItemIDProvider
 	{
-		nextID=702;
+		nextID=718;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5123.7793,85.700867,4871.0962};
-		dir[]={-0.21071731,-0.26690343,-0.94052273};
-		up[]={-0.058371119,0.96369159,-0.26053402};
-		aside[]={-0.97589415,3.6094571e-007,0.21864845};
+		pos[]={4956.4204,73.117767,4818.9951};
+		dir[]={-0.051809821,-0.81919909,-0.57136774};
+		up[]={-0.073977344,0.57353383,-0.81583405};
+		aside[]={-0.99600607,5.86838e-006,0.09032207};
 	};
 };
 binarizationWanted=0;
@@ -34,13 +34,14 @@ addons[]=
 	"A3_Modules_F",
 	"A3_Modules_F_Effects",
 	"ace_weather",
-	"AICommand"
+	"AICommand",
+	"A3_Structures_F_EPA_Civ_Constructions"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -101,6 +102,13 @@ class AddonsMetaData
 		{
 			className="AICommand";
 			name="AICommand";
+		};
+		class Item9
+		{
+			className="A3_Structures_F_EPA";
+			name="Arma 3 Survive Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -187,7 +195,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=593;
+		items=609;
 		class Item0
 		{
 			dataType="Marker";
@@ -16055,6 +16063,254 @@ class Mission
 			};
 			id=699;
 			type="AdvancedAICommand_Commanders";
+		};
+		class Item593
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5034.1147,6.0838132,3254.8625};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=702;
+			type="Land_PortableLight_double_F";
+		};
+		class Item594
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5009.1274,6.0838132,3255.1084};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=703;
+			type="Land_PortableLight_double_F";
+		};
+		class Item595
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4982.3525,6.0838132,3255.1235};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=704;
+			type="Land_PortableLight_double_F";
+		};
+		class Item596
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4958.4629,6.0838132,3255.042};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=705;
+			type="Land_PortableLight_double_F";
+		};
+		class Item597
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4957.9287,6.0838132,3227.3083};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=706;
+			type="Land_PortableLight_double_F";
+		};
+		class Item598
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4982.4517,6.0838132,3227.3835};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=707;
+			type="Land_PortableLight_double_F";
+		};
+		class Item599
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5008.7461,6.0838132,3226.5156};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=708;
+			type="Land_PortableLight_double_F";
+		};
+		class Item600
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5033.4736,6.0838132,3226.7339};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=709;
+			type="Land_PortableLight_double_F";
+		};
+		class Item601
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5036,6.0838132,4753};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=710;
+			type="Land_PortableLight_double_F";
+		};
+		class Item602
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5010,6.0838132,4753};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=711;
+			type="Land_PortableLight_double_F";
+		};
+		class Item603
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5011,6.0838132,4779};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=712;
+			type="Land_PortableLight_double_F";
+		};
+		class Item604
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4984,6.0838132,4753};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=713;
+			type="Land_PortableLight_double_F";
+		};
+		class Item605
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4985,6.0838132,4779};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=714;
+			type="Land_PortableLight_double_F";
+		};
+		class Item606
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4958,6.0838132,4752};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=715;
+			type="Land_PortableLight_double_F";
+		};
+		class Item607
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4959,6.0838132,4779};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=716;
+			type="Land_PortableLight_double_F";
+		};
+		class Item608
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5037,6.0838132,4778};
+				angles[]={0,3.0861704,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=717;
+			type="Land_PortableLight_double_F";
 		};
 	};
 	class Connections

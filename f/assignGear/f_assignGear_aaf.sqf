@@ -14,16 +14,16 @@ _assistantfraction = 1;
 // ====================================================================================
 // Grenades
 _grenade = "ACE_Chemlight_HiGreen";
-_grenadeamount = 4;
+_grenadeamount = 2;
 _Mgrenade = "ACE_HandFlare_Green";
-_Mgrenadeamount = 4;
+_Mgrenadeamount = 2;
 _smokegrenade = "SmokeShellGreen";
-_smokegrenadeamount = 4;
+_smokegrenadeamount = 2;
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
 _pistol = ["Cre8ive_Pst_CV_Ruka_357"];
 _pistolmag = "Cre8ive_Mag_6Rnd_357_Speedloader_Tracer_Green";
-_pistolmagamount = 3;
+_pistolmagamount = 5;
 _pistolclasses = ["mmg"];
 
 // Medium MG
@@ -33,9 +33,6 @@ _MMGmag_tr = "150Rnd_762x54_Box_Tracer";
 _MMGattachments = [_scope1,_attach1];
 _MMGmagamount = 4;
 
-// Chemlights
-_chemlights = ["ACE_Chemlight_HiGreen"];
-_chemlightsamount = 0;
 //Binoculars
 _laserdesignator = "Laserdesignator_02_ghex_F"; // Laser Designator
 
@@ -43,10 +40,10 @@ _laserdesignator = "Laserdesignator_02_ghex_F"; // Laser Designator
 
 // CLOTHES AND UNIFORMS
 
-_glasses = [];
-_helmet = ["H_HelmetLeaderO_ghex_F"];
-_uniform = [];
-_vest = ["V_PlateCarrierSpec_rgr"];
+_glasses = ["G_Shades_Green"];
+_helmet = ["H_RacingHelmet_1_green_F"];
+_uniform = ["U_I_Protagonist_VR"];
+_vest = ["V_DeckCrew_green_F"];
 _backpack = ["B_ViperLightHarness_ghex_F"];
 _outfit = [_glasses,_helmet,_uniform,_vest,_backpack];
 
@@ -115,14 +112,12 @@ if (_isMan) then {
 	{_unit addItem "ACE_quikclot"} forEach [1]; // Bandages
 	{_unit addItem "ACE_packingBandage"} forEach [1,2]; // Bandages
 
-	{_unit addItem "ACE_morphine"} forEach [1,2,3,4];
-	{_unit addItem "ACE_tourniquet"} forEach [1,2];
-	{_unit addItem "ACE_splint"} forEach [1,2];	
-	{_unit addItem "ACE_epinephrine"} forEach [1,2];
-	{_unit addItem "ACE_adenosine"} forEach [1];
-	{_unit addItem "ACE_bloodIV_500"} forEach [1];
-	//Add chemlights
-	[_chemlights, _chemlightsamount,_unit] call _addrandomitems;
+    {_unit addItem "ACE_morphine"} forEach [1,2,3,4];
+    {_unit addItem "ACE_tourniquet"} forEach [1,2];
+    {_unit addItem "ACE_splint"} forEach [1,2];
+    {_unit addItem "ACE_epinephrine"} forEach [1,2];
+    {_unit addItem "ACE_adenosine"} forEach [1];
+    {_unit addItem "ACE_bloodIV_500"} forEach [1];
 };
 
 // ====================================================================================
