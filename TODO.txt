@@ -1,14 +1,11 @@
-init.sqf
-	Toggle AI flashlights
-	Toggle thermals
-description.ext
-	Set max and min players
-	Set game type and mission name
-	Set backpack type
-	Set safe start
-	Set weather, fog, time of day
-	Write ending briefings
-mission.sqm
-	Set mission description
-/f/briefing
-	Write briefings for each playable faction
+Ground is sometimes hard to make out
+    -   Pilots should turn on light
+
+343 Channels not named
+    -   Not currently possible
+
+Vest colour could be better
+    -   Consider EOD vests green/coyote
+
+Glasses do not match team colour
+    -   Consider adding red/green sunglasses
