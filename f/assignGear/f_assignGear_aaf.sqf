@@ -14,16 +14,16 @@ _assistantfraction = 1;
 // ====================================================================================
 // Grenades
 _grenade = "ACE_Chemlight_HiGreen";
-_grenadeamount = 2;
+_grenadeamount = 4;
 _Mgrenade = "ACE_HandFlare_Green";
-_Mgrenadeamount = 2;
+_Mgrenadeamount = 4;
 _smokegrenade = "SmokeShellGreen";
-_smokegrenadeamount = 2;
+_smokegrenadeamount = 4;
 
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
-_pistol = ["hgun_Rook40_F"];
-_pistolmag = "30Rnd_9x21_Green_Mag";
-_pistolmagamount = 2;
+_pistol = ["Cre8ive_Pst_CV_Ruka_357"];
+_pistolmag = "Cre8ive_Mag_6Rnd_357_Speedloader_Tracer_Green";
+_pistolmagamount = 3;
 _pistolclasses = ["mmg"];
 
 // Medium MG
@@ -148,6 +148,8 @@ switch (_typeofUnit) do
 			_unit addPrimaryWeaponItem _x;
 		} 	foreach _MMGattachments;			
 		_unit addmagazines [_smokegrenade,_smokegrenadeamount];
+        _unit addmagazines [_grenade,_grenadeamount];
+        _unit addmagazines [_Mgrenade,_Mgrenadeamount];
 	};
 
 // CARGO: IFV - room for 10 weapons and 100 cargo items
@@ -157,7 +159,7 @@ switch (_typeofUnit) do
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_MMGmag, 12];
+		_unit addMagazineCargoGlobal [_MMGmag, 15];
 		_unit addMagazineCargoGlobal [_grenade, 8];
 		_unit addmagazineCargoGlobal [_mgrenade,8];
 		_unit addMagazineCargoGlobal [_smokegrenade, 8];
@@ -166,7 +168,7 @@ switch (_typeofUnit) do
 		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
 		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
 		_unit addItemCargoGlobal ["ACE_splint", 10];
-		_unit addMagazineCargoGlobal [_pistolmag, 3];
+		_unit addMagazineCargoGlobal [_pistolmag, 6];
 		_unit addMagazineCargoGlobal [_greensmoke, 3];
 	};
 
