@@ -4,8 +4,4 @@ Ground is sometimes hard to make out
 343 Channels not named
     -   Not currently possible
 
-Vest colour could be better
-    -   Consider EOD vests green/coyote
-
-Glasses do not match team colour
-    -   Consider adding red/green sunglasses
+Remove portable lights after mission starts
