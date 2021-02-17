@@ -44,7 +44,7 @@ _glasses = ["G_Shades_Red"];
 _helmet = ["H_RacingHelmet_1_red_F"];
 _uniform = ["U_O_Protagonist_VR"];
 _vest = ["V_DeckCrew_red_F"];
-_backpack = ["B_ViperLightHarness_hex_F"];
+_backpack = [];
 _outfit = [_glasses,_helmet,_uniform,_vest,_backpack];
 
 // ====================================================================================
@@ -154,7 +154,7 @@ switch (_typeofUnit) do
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_MMGmag, 15];
+		_unit addMagazineCargoGlobal [_MMGmag, 14];
 		_unit addMagazineCargoGlobal [_grenade, 8];
 		_unit addmagazineCargoGlobal [_mgrenade,8];
 		_unit addMagazineCargoGlobal [_smokegrenade, 8];
@@ -165,6 +165,7 @@ switch (_typeofUnit) do
 		_unit addItemCargoGlobal ["ACE_splint", 10];
 		_unit addMagazineCargoGlobal [_pistolmag, 6];
 		_unit addMagazineCargoGlobal [_greensmoke, 3];
+		_unit addBackpackCargoGlobal ["B_Parachute", 5];
 	};
 
 // CRATE: Small, ammo for 1 fireteam
