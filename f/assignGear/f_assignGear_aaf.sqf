@@ -153,6 +153,7 @@ switch (_typeofUnit) do
 		_unit addItemCargoGlobal ["ACE_epinephrine", 10];
 		_unit addItemCargoGlobal ["ACE_bloodIV", 5];
 		_unit addItemCargoGlobal ["ACE_splint", 10];
+		_unit addItemCargoGlobal ["ACE_SpareBarrel", 5];
 		_unit addMagazineCargoGlobal [_pistolmag, 6];
 		_unit addMagazineCargoGlobal [_greensmoke, 3];
 	};
