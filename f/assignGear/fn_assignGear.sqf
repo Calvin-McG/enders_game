@@ -94,7 +94,7 @@ _unit setVariable ["f_var_assignGear_done",true,true];
 // ERROR CHECKING
 // If the faction of the unit cannot be defined, the script exits with an error.
 
-if (isNil "_carbine") then { //_carbine should exist unless no faction has been called
+if (isNil "_MMG") then { //_MMG should exist unless no faction has been called
 	player globalchat format ["DEBUG (assignGear.sqf): Faction %1 is not defined.",_faction];
 } else {
 };
