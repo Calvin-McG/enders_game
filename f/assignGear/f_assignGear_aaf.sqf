@@ -1,15 +1,6 @@
 // ATTACHMENTS - PRIMARY
 _attach1 = "ACE_acc_pointer_green";	// IR Laser
-
 _scope1 = "optic_Arco_ghex_F";
-
-// ====================================================================================
-
-// AMMO SETTINGS
-// Ratio between tracers and normal mags 0 = all normal magazines, 1 = all tracer magazines. Values are rounded.
-_tracermagfraction = 1;
-// How much the assistant carries compared to the gunner
-_assistantfraction = 1;
 
 // ====================================================================================
 // Grenades
@@ -23,7 +14,7 @@ _smokegrenadeamount = 2;
 // Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
 _pistol = ["Cre8ive_Pst_CV_Ruka_357"];
 _pistolmag = "Cre8ive_Mag_6Rnd_357_Speedloader_Tracer_Green";
-_pistolmagamount = 5;
+_pistolmagamount = 3;
 _pistolclasses = ["mmg"];
 
 // Medium MG
@@ -31,7 +22,7 @@ _MMG = "LMG_Zafir_F";
 _MMGmag = "150Rnd_762x54_Box_Tracer";
 _MMGmag_tr = "150Rnd_762x54_Box_Tracer";
 _MMGattachments = [_scope1,_attach1];
-_MMGmagamount = 4;
+_MMGmagamount = 5;
 
 //Binoculars
 _laserdesignator = "Laserdesignator_02_ghex_F"; // Laser Designator
@@ -44,7 +35,7 @@ _glasses = ["G_Shades_Green"];
 _helmet = ["H_RacingHelmet_1_green_F"];
 _uniform = ["U_I_Protagonist_VR"];
 _vest = ["V_DeckCrew_green_F"];
-_backpack = [];
+_backpack = ["B_Parachute"];
 _outfit = [_glasses,_helmet,_uniform,_vest,_backpack];
 
 // ====================================================================================
@@ -135,7 +126,6 @@ switch (_typeofUnit) do
 	case "mmg":
 	{
 		_unit addmagazines [_MMGmag,_MMGmagamount];
-		_unit addmagazines [_MMGmag,_MMGmagamount];
 		_unit addweapon _MMG;
 		removeAllPrimaryWeaponItems _unit;
 		{
@@ -165,7 +155,6 @@ switch (_typeofUnit) do
 		_unit addItemCargoGlobal ["ACE_splint", 10];
 		_unit addMagazineCargoGlobal [_pistolmag, 6];
 		_unit addMagazineCargoGlobal [_greensmoke, 3];
-		_unit addBackpackCargoGlobal ["B_Parachute", 5];
 	};
 
 // CRATE: Small, ammo for 1 fireteam

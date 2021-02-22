@@ -28,7 +28,7 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = "Ender's Game 0";
+onLoadName = "Ender's Game 1";
 onLoadMission = "Calvin spent 20$ on this crap";
 author = "Oh Wow, Calvin's Here?";
 loadScreen = "ca_logo_large.jpg";

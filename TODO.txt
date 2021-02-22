@@ -5,3 +5,5 @@ Ground is sometimes hard to make out
     -   Not currently possible
 
 Remove portable lights after mission starts
+
+Re-add replacement barrels
