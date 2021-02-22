@@ -3,7 +3,3 @@ Ground is sometimes hard to make out
 
 343 Channels not named
     -   Not currently possible
-
-Remove portable lights after mission starts
-
-Re-add replacement barrels

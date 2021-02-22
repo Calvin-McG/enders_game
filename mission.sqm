@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=725;
+		nextID=727;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4990.8232,36.594456,3205.5276};
-		dir[]={-0.50865722,-0.29332924,0.80954027};
-		up[]={-0.15609816,0.95599467,0.24843571};
-		aside[]={0.84677601,-8.5562351e-007,0.53205246};
+		pos[]={4983.7998,24.101732,3221.0894};
+		dir[]={0.8975668,-0.43554953,-0.069211148};
+		up[]={0.43432432,0.90013087,-0.033491794};
+		aside[]={-0.076889716,1.395616e-006,-0.99708885};
 	};
 };
 binarizationWanted=0;
@@ -195,7 +195,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=613;
+		items=614;
 		class Item0
 		{
 			dataType="Marker";
@@ -16091,6 +16091,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights1";
 			};
 			id=702;
 			type="Land_PortableLight_double_F";
@@ -16107,6 +16108,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights2";
 			};
 			id=703;
 			type="Land_PortableLight_double_F";
@@ -16123,6 +16125,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights3";
 			};
 			id=704;
 			type="Land_PortableLight_double_F";
@@ -16132,13 +16135,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4942.2764,6.0838132,3246.2632};
-				angles[]={0,1.5565445,0};
+				position[]={4942.2759,6.0838132,3246.2629};
+				angles[]={0,1.5565369,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
+				name="portableLights4";
 			};
 			id=705;
 			type="Land_PortableLight_double_F";
@@ -16155,6 +16159,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights5";
 			};
 			id=706;
 			type="Land_PortableLight_double_F";
@@ -16171,6 +16176,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights6";
 			};
 			id=707;
 			type="Land_PortableLight_double_F";
@@ -16187,6 +16193,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights7";
 			};
 			id=708;
 			type="Land_PortableLight_double_F";
@@ -16203,6 +16210,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights8";
 			};
 			id=709;
 			type="Land_PortableLight_double_F";
@@ -16219,6 +16227,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights9";
 			};
 			id=710;
 			type="Land_PortableLight_double_F";
@@ -16235,6 +16244,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights10";
 			};
 			id=711;
 			type="Land_PortableLight_double_F";
@@ -16251,6 +16261,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights11";
 			};
 			id=712;
 			type="Land_PortableLight_double_F";
@@ -16267,6 +16278,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights12";
 			};
 			id=713;
 			type="Land_PortableLight_double_F";
@@ -16283,6 +16295,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights13";
 			};
 			id=714;
 			type="Land_PortableLight_double_F";
@@ -16299,6 +16312,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights14";
 			};
 			id=715;
 			type="Land_PortableLight_double_F";
@@ -16315,6 +16329,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights15";
 			};
 			id=716;
 			type="Land_PortableLight_double_F";
@@ -16331,6 +16346,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				name="portableLights16";
 			};
 			id=717;
 			type="Land_PortableLight_double_F";
@@ -16419,6 +16435,23 @@ class Mission
 			};
 			id=724;
 			type="Land_VR_Block_01_F";
+		};
+		class Item613
+		{
+			dataType="Trigger";
+			position[]={4968.647,5,3239.637};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{deleteVehicle portableLights1; deleteVehicle portableLights2; deleteVehicle portableLights3; deleteVehicle portableLights4; deleteVehicle portableLights5; deleteVehicle portableLights6; deleteVehicle portableLights7; deleteVehicle portableLights8; deleteVehicle portableLights9; deleteVehicle portableLights10; deleteVehicle portableLights11; deleteVehicle portableLights12; deleteVehicle portableLights13; deleteVehicle portableLights14; deleteVehicle portableLights15; deleteVehicle portableLights16; }";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={60,60,60};
+				activationType="NOT PRESENT";
+				activationBy="ANYPLAYER";
+			};
+			id=726;
+			type="EmptyDetector";
 		};
 	};
 	class Connections
