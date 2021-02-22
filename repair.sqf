@@ -14,14 +14,8 @@ if (_alt <= 25) then {
     _heli addmagazine "8Rnd_82mm_Mo_shells";
 
     _faction = faction _caller;
-    hint _faction;
 
-    if (_faction == "IND_F") then {
-        ["v_ifv",_heli,"ind_f"] call f_fnc_assignGear;
-    }
-    else {
-        ["v_ifv",_heli,"opf_f"] call f_fnc_assignGear;
-    };
+    ["v_ifv",_heli,_faction] call f_fnc_assignGear;
 
     hint "Heli repaired and rearmed";
 }
