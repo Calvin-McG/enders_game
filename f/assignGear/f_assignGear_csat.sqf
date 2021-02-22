@@ -22,7 +22,7 @@ _MMG = "LMG_Zafir_F";
 _MMGmag = "ACE_150Rnd_762x54_Box_tracer_red";
 _MMGmag_tr = "ACE_150Rnd_762x54_Box_tracer_red";
 _MMGattachments = [_scope1,_attach1];
-_MMGmagamount = 5;
+_MMGmagamount = 6;
 
 //Binoculars
 _laserdesignator = "Laserdesignator_02"; // Laser Designator
@@ -144,7 +144,7 @@ switch (_typeofUnit) do
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_MMGmag, 14];
+		_unit addMagazineCargoGlobal [_MMGmag, 8];
 		_unit addMagazineCargoGlobal [_grenade, 8];
 		_unit addmagazineCargoGlobal [_mgrenade,8];
 		_unit addMagazineCargoGlobal [_smokegrenade, 8];
@@ -155,7 +155,6 @@ switch (_typeofUnit) do
 		_unit addItemCargoGlobal ["ACE_splint", 10];
 		_unit addItemCargoGlobal ["ACE_SpareBarrel", 5];
 		_unit addMagazineCargoGlobal [_pistolmag, 6];
-		_unit addMagazineCargoGlobal [_greensmoke, 3];
 	};
 
 // CRATE: Small, ammo for 1 fireteam
